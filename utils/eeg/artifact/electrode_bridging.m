@@ -1,0 +1,2 @@
+% EEG topographies may be distorted by electrode bridges, typically caused by electrolyte spreading between adjacent electrodes.
+% Bridging can be assessed by the correlation between the signal of two electrodes. A very high correlation indicates bridging.

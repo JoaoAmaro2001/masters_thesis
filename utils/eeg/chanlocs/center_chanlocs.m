@@ -1,0 +1,1 @@
+EEG = pop_chanedit(EEG, 'lookup','C:/Users/joaoa/Desktop/Pessoal/Downloads/Packages/eeglab2024.0/plugins/dipfit/standard_BEM/elec/standard_1005.elc', 'eval','chans = pop_chancenter( chans, [],[]);');
