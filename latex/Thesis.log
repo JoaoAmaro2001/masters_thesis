@@ -1,0 +1,1681 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.23)  6 JAN 2025 16:18
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./Thesis.tex
+(Thesis.tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(Thesis_Preamble.tex
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip51
+\bibsep=\skip52
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count271
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
+Package: notoccite 2000/07/20
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/11/30 v24.14 The multilingual framework for pdfLaTeX, LuaLa
+TeX and XeLaTeX
+\babel@savecnt=\count272
+\U@D=\dimen142
+\l@unhyphenated=\language79
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count273
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks17
+\XKV@tempa@toks=\toks18
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\keyval.tex))
+\XKV@depth=\count274
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.st
+y
+Package: tocbasic 2024/10/24 v3.43 KOMA-Script package (handling toc-files)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.st
+y
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-ho
+ok.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+)
+\scr@dte@tocline@numberwidth=\skip53
+\scr@dte@tocline@numbox=\box52
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen143
+\nom@tempdim=\dimen144
+\nomitemsep=\skip54
+)
+\@nomenclaturefile=\write3
+\openout3 = `Thesis.nlo'.
+
+Package nomencl Info: Writing nomenclature file Thesis.nlo on input line 115.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossar
+ies.sty
+Package: glossaries 2024/11/01 v4.55 (NLCT)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2022/10/14 v2.08 (NLCT)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count275
+)
+\@glsmfirst=\toks19
+\@glsmrest=\toks20
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen145
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
+ex))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.s
+ty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-english\glos
+saries-english.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
+sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip55
+For additional information on amsmath, use the `?' option.
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count276
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count277
+\leftroot@=\count278
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count279
+\DOTSCASE@=\count280
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count281
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count282
+\dotsspace@=\muskip17
+\c@parentequation=\count283
+\dspbrk@lvl=\count284
+\tag@help=\toks22
+\row@=\count285
+\column@=\count286
+\maxfields@=\count287
+\andhelp@=\toks23
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks24
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count288
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.st
+y
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count289
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count290
+\FP@xia=\count291
+\FP@xib=\count292
+\FP@xfa=\count293
+\FP@xfb=\count294
+\FP@rega=\count295
+\FP@regb=\count296
+\FP@regs=\count297
+\FP@times=\count298
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count299
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks26
+\@dtl@tmpcount=\count300
+\dtl@tmplength=\skip58
+\dtl@sortresult=\count301
+\@dtl@numgrpsepcount=\count302
+\@dtl@datatype=\count303
+\dtl@codeA=\count304
+\dtl@codeB=\count305
+\@dtl@foreach@level=\count306
+)
+\gls@level=\count307
+\@gls@tmpb=\toks27
+\gls@tmplen=\skip59
+\glskeylisttok=\toks28
+\glslabeltok=\toks29
+\glsshorttok=\toks30
+\glslongtok=\toks31
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-hypernav.sty
+Package: glossary-hypernav 2024/11/01 v4.55 (NLCT)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-list.sty
+Package: glossary-list 2024/11/01 v4.55 (NLCT)
+\glslistdottedwidth=\skip60
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-long.sty
+Package: glossary-long 2024/11/01 v4.55 (NLCT)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count308
+\LTcapwidth=\dimen154
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count309
+\LT@rows=\count310
+\c@LT@tables=\count311
+\c@LT@chunks=\count312
+\LT@p@ftn=\toks32
+)
+\glsdescwidth=\skip65
+\glspagelistwidth=\skip66
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-super.sty
+Package: glossary-super 2024/11/01 v4.55 (NLCT)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertabul
+ar.sty
+Package: supertabular 2024/07/20 v4.2c the supertabular environment
+\c@tracingst=\count313
+\ST@wd=\dimen155
+\ST@rightskip=\skip67
+\ST@leftskip=\skip68
+\ST@parfillskip=\skip69
+\ST@pageleft=\dimen156
+\ST@headht=\dimen157
+\ST@tailht=\dimen158
+\ST@pagesofar=\dimen159
+\ST@pboxht=\dimen160
+\ST@rowht=\dimen161
+\ST@prevht=\dimen162
+\ST@toadd=\dimen163
+\ST@dimen=\dimen164
+\ST@pbox=\box60
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\gloss
+ary-tree.sty
+Package: glossary-tree 2024/11/01 v4.55 (NLCT)
+\glstreeindent=\skip70
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `Thesis.glo'.
+
+Package glossaries Info: Writing glossary file Thesis.glo on input line 176.
+\glo@acronym@file=\write6
+\openout6 = `Thesis.acn'.
+
+Package glossaries Info: Writing glossary file Thesis.acn on input line 176.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count314
+\Gm@cntv=\count315
+\c@Gm@tempcnt=\count316
+\Gm@bindingoffset=\dimen165
+\Gm@wd@mp=\dimen166
+\Gm@odd@mp=\dimen167
+\Gm@even@mp=\dimen168
+\Gm@layoutwidth=\dimen169
+\Gm@layoutheight=\dimen170
+\Gm@layouthoffset=\dimen171
+\Gm@layoutvoffset=\dimen172
+\Gm@dimlist=\toks33
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks34
+\thm@bodyfont=\toks35
+\thm@headfont=\toks36
+\thm@notefont=\toks37
+\thm@headpunct=\toks38
+\thm@preskip=\skip71
+\thm@postskip=\skip72
+\thm@headsep=\skip73
+\dth@everypar=\toks39
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen175
+\captionmargin=\dimen176
+\caption@leftmargin=\dimen177
+\caption@rightmargin=\dimen178
+\caption@width=\dimen179
+\caption@indent=\dimen180
+\caption@parindent=\dimen181
+\caption@hangindent=\dimen182
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count317
+\c@continuedfloat=\count318
+Package caption Info: longtable package is loaded.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+\c@KVtest=\count319
+\sf@farskip=\skip74
+\sf@captopadj=\dimen183
+\sf@capskip=\skip75
+\sf@nearskip=\skip76
+\c@subfigure=\count320
+\c@subfigure@save=\count321
+\c@lofdepth=\count322
+\c@subtable=\count323
+\c@subtable@save=\count324
+\c@lotdepth=\count325
+\sf@top=\skip77
+\sf@bottom=\skip78
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/aspectratio\ar.sty
+Package: ar 2012/01/23 v.2.0 Aspect Ratio symbol: CM, TX, PX styles
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen184
+\ar@mcellbox=\box61
+\extrarowheight=\dimen185
+\NC@list=\toks40
+\extratabsurround=\skip79
+\backup@length=\skip80
+\ar@cellbox=\box62
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count326
+\rotFPtop=\skip81
+\rotFPbot=\skip82
+\rot@float@box=\box63
+\rot@mess@toks=\toks41
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count327
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen186
+\Hy@linkcounter=\count328
+\Hy@pagecounter=\count329
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count330
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count331
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen187
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count332
+\Field@Width=\dimen188
+\Fld@charsize=\dimen189
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count333
+\c@Item=\count334
+\c@Hfootnote=\count335
+)
+Package hyperref Info: Driver: hpdftex.
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count336
+\c@bookmark@seq@number=\count337
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip83
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 492.
+
+
+Package hyperref Warning: Option `bookmarks' has already been used,
+(hyperref)                setting the option has no effect on input line 492.
+
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 492.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 492.
+
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 492
+.
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/hypcap\hypcap.sty
+Package: hypcap 2024-07-26 v1.13 Adjusting the anchors of captions (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip84
+\multirow@cntb=\count338
+\multirow@dima=\skip85
+\bigstrutjot=\dimen190
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen191
+\lightrulewidth=\dimen192
+\cmidrulewidth=\dimen193
+\belowrulesep=\dimen194
+\belowbottomsep=\dimen195
+\aboverulesep=\dimen196
+\abovetopsep=\dimen197
+\cmidrulesep=\dimen198
+\cmidrulekern=\dimen199
+\defaultaddspace=\dimen256
+\@cmidla=\count339
+\@cmidlb=\count340
+\@aboverulesep=\dimen257
+\@belowrulesep=\dimen258
+\@thisruleclass=\count341
+\@lastruleclass=\count342
+\@thisrulewidth=\dimen259
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count343
+\calc@Bcount=\count344
+\calc@Adimen=\dimen260
+\calc@Bdimen=\dimen261
+\calc@Askip=\skip86
+\calc@Bskip=\skip87
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count345
+\calc@Cskip=\skip88
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen262
+\ESO@tempdimb=\dimen263
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
+\AM@pagewidth=\dimen264
+\AM@pageheight=\dimen265
+\AM@fboxrule=\dimen266
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count346
+\AM@pagebox=\box64
+\AM@global@opts=\toks42
+\AM@pagecnt=\count347
+\AM@toc@title=\toks43
+\AM@lof@heading=\toks44
+\c@AM@survey=\count348
+\AM@templatesizebox=\box65
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count349
+\float@exts=\toks45
+\float@box=\box66
+\@float@everytoks=\toks46
+\@floatcapt=\box67
+)
+\@float@every@algorithm=\toks47
+\c@algorithm=\count350
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count351
+\c@ALG@rem=\count352
+\c@ALG@nested=\count353
+\ALG@tlm=\skip89
+\ALG@thistlm=\skip90
+\c@ALG@Lnr=\count354
+\c@ALG@blocknr=\count355
+\c@ALG@storecount=\count356
+\c@ALG@tmpcounter=\count357
+\ALG@tmplength=\skip91
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
+\SOUL@word=\toks48
+\SOUL@lasttoken=\toks49
+\SOUL@syllable=\toks50
+\SOUL@cmds=\toks51
+\SOUL@buffer=\toks52
+\SOUL@token=\toks53
+\SOUL@syllgoal=\dimen267
+\SOUL@syllwidth=\dimen268
+\SOUL@charkern=\dimen269
+\SOUL@hyphkern=\dimen270
+\SOUL@dimen=\dimen271
+\SOUL@dimeni=\dimen272
+\SOUL@minus=\count358
+\SOUL@comma=\count359
+\SOUL@apo=\count360
+\SOUL@grave=\count361
+\SOUL@spaceskip=\skip92
+\SOUL@ttwidth=\dimen273
+\SOUL@uldp=\dimen274
+\SOUL@ulht=\dimen275
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+Couldn't patch \@starttoc
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count362
+\mult@box=\box68
+\multicol@leftmargin=\dimen276
+\c@unbalance=\count363
+\c@collectmore=\count364
+\doublecol@number=\count365
+\multicoltolerance=\count366
+\multicolpretolerance=\count367
+\full@width=\dimen277
+\page@free=\dimen278
+\premulticols=\dimen279
+\postmulticols=\dimen280
+\multicolsep=\skip93
+\multicolbaselineskip=\skip94
+\partial@page=\box69
+\last@line=\box70
+\mc@boxedresult=\box71
+\maxbalancingoverflow=\dimen281
+\mult@rightbox=\box72
+\mult@grightbox=\box73
+\mult@firstbox=\box74
+\mult@gfirstbox=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\c@minrows=\count368
+\c@columnbadness=\count369
+\c@finalcolumnbadness=\count370
+\last@try=\dimen282
+\multicolovershoot=\dimen283
+\multicolundershoot=\dimen284
+\mult@nat@firstbox=\box112
+\colbreak@box=\box113
+\mc@col@check@num=\count371
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/svg\svg.sty
+Package: svg 2020/11/26 v2.02k (include SVG pictures)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.s
+ty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+) (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\c@svg@param@lastpage=\count372
+\svg@box=\box114
+\c@svg@param@currpage=\count373
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+.sty
+Package: transparent 2022-10-27 v1.5 Transparency with color stacks
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+-nometadata.sty
+Package: transparent-nometadata 2022-10-27 v1.5 Transparency via pdfTeX's color
+ stack (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks54
+\pgfutil@tempdima=\dimen285
+\pgfutil@tempdimb=\dimen286
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box115
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks55
+\pgfkeys@temptoks=\toks56
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks57
+))
+\pgf@x=\dimen287
+\pgf@y=\dimen288
+\pgf@xa=\dimen289
+\pgf@ya=\dimen290
+\pgf@xb=\dimen291
+\pgf@yb=\dimen292
+\pgf@xc=\dimen293
+\pgf@yc=\dimen294
+\pgf@xd=\dimen295
+\pgf@yd=\dimen296
+\w@pgf@writea=\write7
+\r@pgf@reada=\read3
+\c@pgf@counta=\count374
+\c@pgf@countb=\count375
+\c@pgf@countc=\count376
+\c@pgf@countd=\count377
+\t@pgf@toka=\toks58
+\t@pgf@tokb=\toks59
+\t@pgf@tokc=\toks60
+\pgf@sys@id@count=\count378
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count379
+\pgfsyssoftpath@bigbuffer@items=\count380
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2024-12-06 v3.4.0 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count381
+\l__siunitx_number_exponent_fixed_int=\count382
+\l__siunitx_number_min_decimal_int=\count383
+\l__siunitx_number_min_integer_int=\count384
+\l__siunitx_number_round_precision_int=\count385
+\l__siunitx_number_lower_threshold_int=\count386
+\l__siunitx_number_upper_threshold_int=\count387
+\l__siunitx_number_group_first_int=\count388
+\l__siunitx_number_group_size_int=\count389
+\l__siunitx_number_group_minimum_int=\count390
+\l__siunitx_angle_tmp_dim=\dimen297
+\l__siunitx_angle_marker_box=\box116
+\l__siunitx_angle_unit_box=\box117
+\l__siunitx_compound_count_int=\count391
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+)
+\l__siunitx_table_tmp_box=\box118
+\l__siunitx_table_tmp_dim=\dimen298
+\l__siunitx_table_column_width_dim=\dimen299
+\l__siunitx_table_integer_box=\box119
+\l__siunitx_table_decimal_box=\box120
+\l__siunitx_table_uncert_box=\box121
+\l__siunitx_table_before_box=\box122
+\l__siunitx_table_after_box=\box123
+\l__siunitx_table_before_dim=\dimen300
+\l__siunitx_table_carry_dim=\dimen301
+\l__siunitx_unit_tmp_int=\count392
+\l__siunitx_unit_position_int=\count393
+\l__siunitx_unit_total_int=\count394
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen302
+\c@nlinenum=\count395
+\TeXr@lab=\toks61
+)) (Thesis_Nomenclature.tex) (Thesis_Glossary.tex)
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 96
+.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count396
+\l__pdf_internal_box=\box124
+) (Thesis.aux)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count397
+\scratchdimen=\dimen303
+\scratchbox=\box125
+\nofMPsegments=\count398
+\nofMParguments=\count399
+\everyMPshowfont=\toks62
+\MPscratchCnt=\count400
+\MPscratchDim=\dimen304
+\MPnumerator=\count401
+\makeMPintoPDFobject=\count402
+\everyMPtoPDFconversion=\toks63
+)
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 96.
+ (Thesis.out) (Thesis.out)
+\@outlinefile=\write8
+\openout8 = `Thesis.out'.
+
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Couldn't patch \deferred@thm@head!
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 96.
+ (Thesis_FrontCover.tex
+<Figures/ULisboa_logo.png, id=298, 143.03438pt x 274.77657pt>
+File: Figures/ULisboa_logo.png Graphic file (type png)
+<use Figures/ULisboa_logo.png>
+Package pdftex.def Info: Figures/ULisboa_logo.png  used on input line 22.
+(pdftex.def)             Requested size: 74.05746pt x 142.26378pt.
+<Figures/FMUL.png, id=300, 578.16pt x 843.6318pt>
+File: Figures/FMUL.png Graphic file (type png)
+<use Figures/FMUL.png>
+Package pdftex.def Info: Figures/FMUL.png  used on input line 24.
+(pdftex.def)             Requested size: 97.49191pt x 142.26378pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+
+
+(C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+
+[1
+
+\openout4 = `Thesis.ist'.
+
+{C:/Users/joaop/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/joao
+p/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Figures/ULisboa
+_logo.png> <./Figures/FMUL.png>]
+
+[2
+
+] (Thesis_Dedication.tex
+
+[3])
+
+[4
+
+] (Thesis_Declaration.tex
+
+[5])
+
+[6
+
+] (Thesis_Acknowledgements.tex)
+
+[7]
+
+[8
+
+] (Thesis_Resumo.tex)
+
+[9]
+
+[10
+
+] (Thesis_Abstract.tex)
+
+[11]
+
+[12
+
+] (Thesis.toc
+
+[13
+
+]
+
+[14])
+\tf@toc=\write9
+\openout9 = `Thesis.toc'.
+
+
+
+[15]
+
+[16
+
+] (Thesis.lot)
+\tf@lot=\write10
+\openout10 = `Thesis.lot'.
+
+
+
+[17
+
+]
+
+[18
+
+] (Thesis.lof
+
+[19
+
+])
+\tf@lof=\write11
+\openout11 = `Thesis.lof'.
+
+
+
+[20] (Thesis.acr
+Underfull \hbox (badness 10000) in alignment at lines 2--135
+[] []
+ []
+
+[21
+
+
+
+])
+
+[22] (Thesis_Background.tex
+Chapter 1.
+<Figures/eeg_intro.png, id=594, 2134.97626pt x 785.18344pt>
+File: Figures/eeg_intro.png Graphic file (type png)
+<use Figures/eeg_intro.png>
+Package pdftex.def Info: Figures/eeg_intro.png  used on input line 22.
+(pdftex.def)             Requested size: 455.24411pt x 167.42136pt.
+
+
+[1
+
+
+ <./Figures/eeg_intro.png>]
+<Figures/dipole_generator.png, id=613, 1484.382pt x 1474.965pt>
+File: Figures/dipole_generator.png Graphic file (type png)
+<use Figures/dipole_generator.png>
+Package pdftex.def Info: Figures/dipole_generator.png  used on input line 34.
+(pdftex.def)             Requested size: 455.24411pt x 452.3506pt.
+
+
+[2]
+
+[3 <./Figures/dipole_generator.png>]
+
+[4]
+<Figures/erp_jitter.png, id=659, 2224.56094pt x 796.85204pt>
+File: Figures/erp_jitter.png Graphic file (type png)
+<use Figures/erp_jitter.png>
+Package pdftex.def Info: Figures/erp_jitter.png  used on input line 79.
+(pdftex.def)             Requested size: 455.24411pt x 163.0639pt.
+
+
+[5 <./Figures/erp_jitter.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 94.
+<Figures/esi_workflow.png, id=681, 1796.02995pt x 679.5789pt>
+File: Figures/esi_workflow.png Graphic file (type png)
+<use Figures/esi_workflow.png>
+Package pdftex.def Info: Figures/esi_workflow.png  used on input line 104.
+(pdftex.def)             Requested size: 455.24411pt x 172.24818pt.
+
+
+[6]
+
+[7 <./Figures/esi_workflow.png>]
+<Figures/esi_algos.png, id=717, 1781.15437pt x 1120.9378pt>
+File: Figures/esi_algos.png Graphic file (type png)
+<use Figures/esi_algos.png>
+Package pdftex.def Info: Figures/esi_algos.png  used on input line 132.
+(pdftex.def)             Requested size: 455.24411pt x 286.49387pt.
+
+
+[8]
+
+[9 <./Figures/esi_algos.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / neuroimage . usc . edu /
+ []
+
+
+Underfull \hbox (badness 1824) in paragraph at lines 191--191
+[]|\T1/phv/m/n/10 Dipole mod-el-ing, Beam-former, sLORETA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / sites . google . com / site /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / sccn . ucsd . edu / eeglab /
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 191--191
+[]|\T1/phv/m/n/10 Dipole mod-el-ing, Beam-former, Min-i-mum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 http : / / www . uzh . ch / keyinst /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / martinos . org / mne / stable /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / www . nitrc . org / projects /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / www . fil . ion . ucl . ac . uk /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 http : / / www . besa . de /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\T1/cmtt/m/n/10 products / besa-[]research /
+ []
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 191--191
+[]|\T1/phv/m/n/10 Dipole mod-el-ing, RAP-MUSIC, LORETA,
+ []
+
+
+Underfull \hbox (badness 7116) in paragraph at lines 191--191
+[]|\T1/phv/m/n/10 Beamformer, Min-i-mum Norm, LORETA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / www . usa . philips . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+\T1/cmtt/m/n/10 healthcare / solutions / neuro /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
+[]|[][]$\T1/cmtt/m/n/10 https : / / compumedicsneuroscan .
+ []
+
+
+
+[10])
+
+[11]
+
+[12
+
+] (Thesis_Introduction.tex
+Chapter 2.
+
+
+[13
+
+]
+
+[14]
+<Figures/erp_components.png, id=838, 2013.924pt x 1651.479pt>
+File: Figures/erp_components.png Graphic file (type png)
+<use Figures/erp_components.png>
+Package pdftex.def Info: Figures/erp_components.png  used on input line 55.
+(pdftex.def)             Requested size: 455.24411pt x 373.30551pt.
+
+
+[15 <./Figures/erp_components.png>]
+<Figures/lpp_epn.png, id=861, 1599.138pt x 2285.484pt>
+File: Figures/lpp_epn.png Graphic file (type png)
+<use Figures/lpp_epn.png>
+Package pdftex.def Info: Figures/lpp_epn.png  used on input line 67.
+(pdftex.def)             Requested size: 455.24411pt x 650.63737pt.
+
+
+[16]
+
+[17 <./Figures/lpp_epn.png>])
+
+[18] (Thesis_Implementation.tex
+Chapter 3.
+<Figures/mean_nat_crowd_survey.png, id=898, 805.263pt x 438.0pt>
+File: Figures/mean_nat_crowd_survey.png Graphic file (type png)
+<use Figures/mean_nat_crowd_survey.png>
+Package pdftex.def Info: Figures/mean_nat_crowd_survey.png  used on input line 
+36.
+(pdftex.def)             Requested size: 455.24411pt x 247.6175pt.
+
+
+[19
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+4.
+ (C:\Users\joaop\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+
+[20 <./Figures/mean_nat_crowd_survey.png>]
+<Figures/channel_montage.png, id=922, 2384.91pt x 959.658pt>
+File: Figures/channel_montage.png Graphic file (type png)
+<use Figures/channel_montage.png>
+Package pdftex.def Info: Figures/channel_montage.png  used on input line 65.
+(pdftex.def)             Requested size: 455.24411pt x 183.18622pt.
+
+
+[21 <./Figures/channel_montage.png>]
+<Figures/task_summary.png, id=938, 2370.237pt x 1398.972pt>
+File: Figures/task_summary.png Graphic file (type png)
+<use Figures/task_summary.png>
+Package pdftex.def Info: Figures/task_summary.png  used on input line 99.
+(pdftex.def)             Requested size: 455.24411pt x 268.68922pt.
+
+
+[22]
+
+[23 <./Figures/task_summary.png>]
+Overfull \hbox (0.77238pt too wide) in paragraph at lines 139--140
+[]\T1/phv/m/n/10 Due to the re-sis-tance of the skull to the prop-a-ga-tion of 
+the elec-tri-cal field, volt-age val-ues get smoothed
+ []
+
+<Figures/spatial_filter.png, id=965, 2105.904pt x 1142.742pt>
+File: Figures/spatial_filter.png Graphic file (type png)
+<use Figures/spatial_filter.png>
+Package pdftex.def Info: Figures/spatial_filter.png  used on input line 149.
+(pdftex.def)             Requested size: 455.24411pt x 247.02737pt.
+
+
+[24]
+
+[25 <./Figures/spatial_filter.png>]
+<Figures/lpp_epn_components.png, id=1002, 2165.253pt x 1728.348pt>
+File: Figures/lpp_epn_components.png Graphic file (type png)
+<use Figures/lpp_epn_components.png>
+Package pdftex.def Info: Figures/lpp_epn_components.png  used on input line 174
+.
+(pdftex.def)             Requested size: 455.24411pt x 363.38576pt.
+
+
+[26 <./Figures/lpp_epn_components.png>]
+
+[27]
+<Figures/head_model_egi.png, id=1027, 2211.243pt x 2332.35pt>
+File: Figures/head_model_egi.png Graphic file (type png)
+<use Figures/head_model_egi.png>
+Package pdftex.def Info: Figures/head_model_egi.png  used on input line 210.
+(pdftex.def)             Requested size: 455.24411pt x 480.1634pt.
+
+
+[28]
+
+[29 <./Figures/head_model_egi.png>]
+<Figures/source_example.png, id=1042, 2188.467pt x 955.278pt>
+File: Figures/source_example.png Graphic file (type png)
+<use Figures/source_example.png>
+Package pdftex.def Info: Figures/source_example.png  used on input line 223.
+(pdftex.def)             Requested size: 455.24411pt x 198.70479pt.
+<Figures/ba_areas.png, id=1045, 2027.502pt x 608.82pt>
+File: Figures/ba_areas.png Graphic file (type png)
+<use Figures/ba_areas.png>
+Package pdftex.def Info: Figures/ba_areas.png  used on input line 233.
+(pdftex.def)             Requested size: 455.24411pt x 136.69989pt.
+)
+
+[30 <./Figures/source_example.png> <./Figures/ba_areas.png>]
+(Thesis_Results.tex
+Chapter 4.
+<Figures/valence_arousal_diff.png, id=1055, 715.17188pt x 353.82187pt>
+File: Figures/valence_arousal_diff.png Graphic file (type png)
+<use Figures/valence_arousal_diff.png>
+Package pdftex.def Info: Figures/valence_arousal_diff.png  used on input line 2
+3.
+(pdftex.def)             Requested size: 455.24411pt x 225.22507pt.
+
+
+[31
+
+
+ <./Figures/valence_arousal_diff.png>]
+<Figures/cluster_stat.png, id=1062, 2070.98718pt x 1093.08376pt>
+File: Figures/cluster_stat.png Graphic file (type png)
+<use Figures/cluster_stat.png>
+Package pdftex.def Info: Figures/cluster_stat.png  used on input line 37.
+(pdftex.def)             Requested size: 455.24411pt x 240.27902pt.
+<Figures/grand_average.png, id=1064, 2361.696pt x 1535.19pt>
+File: Figures/grand_average.png Graphic file (type png)
+<use Figures/grand_average.png>
+Package pdftex.def Info: Figures/grand_average.png  used on input line 45.
+(pdftex.def)             Requested size: 455.24411pt x 295.90564pt.
+
+
+[32 <./Figures/cluster_stat.png>]
+
+[33 <./Figures/grand_average.png>]
+<Figures/erp_boxplots.png, id=1077, 2261.832pt x 1472.775pt>
+File: Figures/erp_boxplots.png Graphic file (type png)
+<use Figures/erp_boxplots.png>
+Package pdftex.def Info: Figures/erp_boxplots.png  used on input line 60.
+(pdftex.def)             Requested size: 455.24411pt x 296.41502pt.
+<Figures/source_results.png, id=1079, 1886.685pt x 1929.171pt>
+File: Figures/source_results.png Graphic file (type png)
+<use Figures/source_results.png>
+Package pdftex.def Info: Figures/source_results.png  used on input line 72.
+(pdftex.def)             Requested size: 455.24411pt x 465.4832pt.
+
+
+[34 <./Figures/erp_boxplots.png>]
+
+[35 <./Figures/source_results.png>]
+<Figures/stronger_dipoles.png, id=1090, 2007.135pt x 827.601pt>
+File: Figures/stronger_dipoles.png Graphic file (type png)
+<use Figures/stronger_dipoles.png>
+Package pdftex.def Info: Figures/stronger_dipoles.png  used on input line 82.
+(pdftex.def)             Requested size: 455.24411pt x 187.70494pt.
+)
+
+[36 <./Figures/stronger_dipoles.png>] (Thesis_Discussion.tex
+Chapter 5.
+
+
+[37
+
+
+]
+
+[38]
+
+[39])
+
+[40] (Thesis_Conclusions.tex
+Chapter 6.
+)
+
+[41
+
+
+]
+
+[42
+
+] (Thesis.bbl
+
+[43
+
+]
+
+[44]
+
+[45]
+
+[46]
+
+[47]
+
+[48]
+
+[49]
+
+[50]
+
+[51]
+
+[52])
+
+[53]
+
+[54
+
+] (Thesis_Appendix_A.tex
+Appendix A.
+)
+
+[55
+
+]
+
+[56
+
+] (Thesis_Appendix_B.tex
+Appendix B.
+)
+
+[57
+
+]
+
+[58
+
+] (Thesis.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-11-02>
+ ***********
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 7E5C57F46C86D389286B275585CA9214;12592.
+ ) 
+Here is how much of TeX's memory you used:
+ 31134 strings out of 473650
+ 617333 string characters out of 5717934
+ 1068283 words of memory out of 5000000
+ 53358 multiletter control sequences out of 15000+600000
+ 602388 words of font info for 90 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 115i,14n,136p,2430b,1369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\joaop\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1000.pk><C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Users/joaop/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb><C:/Users/joaop/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/joaop/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/joaop/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/joaop/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/joa
+op/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/
+joaop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Use
+rs/joaop/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Thesis.pdf (80 pages, 278146819 bytes).
+PDF statistics:
+ 1419 PDF objects out of 1440 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 712 words of extra memory for PDF output out of 10000 (max. 10000000)
+

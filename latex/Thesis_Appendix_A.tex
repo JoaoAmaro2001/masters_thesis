@@ -1,0 +1,22 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Appendix_A.tex                                      %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified : 27 Feb 2024                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Dataset and Code}
+\label{chapter:appendixVectors}
+
+The neuroimaging data for this study will eventually be made public at the eMOTIONAL Cities Spatial Data Infrastructure (SDI). Additionally, the scripts used to preprocess and analyse the data are freely available at \href{https://github.com/JoaoAmaro2001/masters_thesis}{\color{blue}{this github repository}} along with the tabular files containing the output from the analysis.
+
+% ----------------------------------------------------------------------
+\section{BIDS structure}
+Prior to any data analysis, data were organized according to the \acrfull{bids} \cite{gorgolewskiBrainImagingData2016, pernetEEGBIDSExtensionBrain2019}. The code used to transform the raw dataset into the BIDS structure was based on Fieldtrip's function \texttt{data2bids} \cite{oostenveldFieldTripOpenSource2011}.
+
+\section{Programming and Scripts}
+After the acquisition and data curation processes, the process of creating code to process and analyse the data was based on tenets that promote code readability and organization \cite{vlietSevenQuickTips2020}.
+

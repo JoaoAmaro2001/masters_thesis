@@ -1,0 +1,235 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Implementation.tex                                  %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  4 Mar 2024                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Materials and Methodology}
+\label{chapter:implementation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Subjects}
+\label{section:verification}
+
+Thirty voluntary healthy participants (age 20-53 years (M = 28.5, SD = 7.4), 15 females) took part in this study. All participants provided informed consent, and the study was approved by the Ethics Committee of the Academic Centre of Medicine of Lisbon.
+
+\subsection{Psychological Assessments and Participant Characteristics}
+\label{section:psychological}
+
+Each participant completed a series of psychological questionnaires designed to capture a range of personality traits, emotional states, and behavioral tendencies. These included HEXACO-PI-R \cite{ashtonEmpiricalTheoreticalPractical2007,ashtonTheoreticalBasisMajor2001, leePsychometricPropertiesHEXACO1002018}, the Behavioral Inhibition and Behavioral Activation System (BIS/BAS) Scales \cite{carverBehavioralInhibitionBehavioral1994}, the Satisfaction With Life Scale (SWLS) \cite{dienerSatisfactionLifeScale1985a}, the Depression, Anxiety and Stress scale (DASS-21) \cite{lovibondStructureNegativeEmotional1995}, the Bergen Social Media Addiction Scale \cite{andreassenDevelopmentFacebookAddiction2012, banyaiProblematicSocialMedia2017}, and the Positive and Negative Affect Schedule (PANAS) \cite{watsonDevelopmentValidationBrief1988, crawfordPositiveNegativeAffect2004}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Data Acquisition Systems}
+\label{section:data_acquisition_systems}
+
+\subsection{Stimuli}
+
+The stimuli for this task were chosen from a bigger sample of videos filmed in Lisbon. Videos with discrepant valence ratings from the project's authors or inconsistent ratings (<75\% consensus) were excluded, resulting in a final selection of 72 stimuli.
+
+Additionally, an online survey was completed to better corroborate video categorization. The survey was completed by 498 external raters and consisted of rating the videos by perceived naturalness, crowdedness, pleasantness, and arousability. Figure~\ref{mean_nat_crowd_survey} shows that the initial characterization corresponded fairly well with the responses from the survey. However, since a few videos appeared to deviate to neighboring quadrants (such as the "C11" and "B23" videos), Tukey's method with a $\pm 1.5$ SD threshold was applied to each condition to assess whether these videos were true outliers. The results showed no condition had outliers and thus the initial categorization of the videos was maintained.
+
+\begin{figure}[H]
+\includegraphics[width=\linewidth]{Figures/mean_nat_crowd_survey.png}
+\caption{Average of the naturalness and crowdedness ratings obtained from the online survey for every video file presented in the task as stimuli.
+\label{mean_nat_crowd_survey}}
+\end{figure}
+
+\subsection{Physiological Measurements}
+\label{section:physiological}
+
+Physiological data was collected with the E4 wristband (Empatica, 2015). The wearable E4 device allows for blood volume pulse (BVP) data recordings, that can then be used to compute inter-beat intervals and thus heart rate (HR) and heart rate variability (HRV) measures. It also allows for skin temperature and electrodermal activity (EDA) recordings, out of which the skin conductance responses (SCRs) can be derived.
+
+\subsection{Eye-tracker}
+\label{section:eye_tracking}
+
+Eye location and visual gaze were monitored with a tower-mounted EyeLink 1000 Plus infrared (SR Research) eye-tracker system with a monocular lens that recorded at a frequency of 1000 Hz. Head position was kept stable with the support of a chin and head mount support.
+
+\subsection{Structural MRI}
+\label{section:mri}
+
+Structural MRI data were acquired using a Philips Ingenia 3T MRI scanner (software version 5.7.1) at the Lisbon School of Medicine using a 32-channel head coil. A T1-weighted 3D gradient-echo sequence (T1TFE) with magnetization-prepared (MP) was used with isotropic voxel dimensions of 1 × 1 × 1 mm, no slice gap, a repetition time (TR) of 6.6 ms, and an echo time (TE) of 3.01 ms. The sequence used an inversion time (TI) of 1.06 s and a flip angle of 8 degrees. The scan employed parallel imaging with a reduction factor of 1.87, and the acquisition matrix was 250 × 252 × 180, reconstructed to 560 in the phase encoding direction. 
+%Partial Fourier encoding was used in the phase direction with 77.9\% sampling. The patient was positioned Head First Supine (HFS), and the total acquisition duration was 199.9 seconds. The echo train length was 204 with a pixel bandwidth of 271 Hz/pixel. 
+
+\subsection{EEG Recording}
+\label{section:eeg_systems}
+
+The EEG data was recorded using \acrfull{hdeeg} with 257 channels (EGI, electrical geodesics, INC) at a sampling rate of 500 Hz with Cz as reference, and an extra electrode COM as electrical reference/ground \cite{tuckerSpatialSamplingHead1993} (Net Station Acquisition, version 5.4.2). The EEG cap was submerged into a bucket of saline solution in order to increase electrical conductivity. Electrode impedances were kept below $50\ \text{k}\Omega$. 
+
+High-density EEG  has emerged to make up for the lack of spatial resolution that traditional EEG presents. Therefore, there is greater precision in the location of the origin of the signal, as well as more accurate mapping of brain functions \cite{dattolaFindingsLORETAApplied2020, songEEGSourceLocalization2015}. Another advantage of using the high-density model is how well it translates into the standard 10-20 system. The primary purpose of the 10-20 system is to provide a reproducible method for placing EEG electrodes on the scalp so that comparisons can be made across EEG studies and between subjects. Due cap's high channel density, the intersensor distances are small, thereby assuring minimum error with all standard positions \cite{luuHydroCelGSN102005}.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{Figures/channel_montage.png}
+	\caption{\textbf{a)} Standard 10-10 channel montage, the underlying brain regions and fiducials. \textbf{b)} EGI's geodesic sensor net with its 10-10 channel equivalents.
+		\label{channel_montage}}
+\end{figure}
+
+\subsection{Electrode Digitization}
+\label{section:electrode_digitization}
+
+The Geoscan sensor digitization system (EGI, electrical geodesics, INC) was used to scan the electrode positions. It is a type of 3D infrared scanner as it detects infrared reflections of projected light patterns with a camera to estimate the shape of an object. This approach has been found to be one of the most reliable for source estimation \cite{shiraziMoreReliableEEG2019}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Setup}
+\label{section:preparation}
+
+Upon arrival, participants were asked to sign the informed consent. Afterwards, anatomical landmarks were taken to fit the EEG cap in a standardized manner. These were the inion, the nasion, adn the preauricular landmarks which were used to mark the vertex of the head where the Cz channel is situated.
+
+Afterwards, participants were comfortably seated at a viewing distance of 50-55 cm from a 21.5'' inch screen with a 1920x1080 resolution (part a) of figure \ref{fig:task_scheme}). The experimental procedure started with a brief training session to familiarise the participants with the task. After this, the experiment consisted of two sessions (each lasting approximately 20 minutes and separated by a short break of 5 minutes).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Experimental Protocol}
+\label{section:protocol}
+
+\subsection{Task Implementation Software}
+
+The task was implemented in two different softwares, the only difference between both being the reduced number of videos which went from the original 72 to 60 videos, as drowsiness was commonly reported by participants at the end of the experiment. The first implementation of the task was done using the MonkeyLogic software \cite{asaadFlexibleSoftwareTool2008} in MATLAB (R2018a; The MathWorks Inc., Natick, MA, USA). The first 20 participants did the experiment on this task. The second implementation was written in MATLAB (R2024a; The MathWorks Inc., Natick, MA, USA), using the Psychophysics Toolbox extensions \cite{pelliVideoToolboxSoftwareVisual1997, brainardPsychophysicsToolbox1997, cecbb7f7e1544489b920fd276dc6eb0c}. Another advantage of migrating to Pyschtoolbox is the possibility of communicating direcly with SR-research eye-tracker devices via in-built functions, and allowing analysis using Data Viewer software EyeLink Data Viewer software package (SR Research).
+
+\subsection{Task Description}
+An entire experimental session lasted 90 minutes on average, and it included preparing the participant with the equipment and running the experimental protocol. Both portuguese and foreign participants were allowed to perform the experiment since the task had both portuguese and english versions.
+ 
+The experimental paradigm began with participants viewing a blank screen featuring a central black dot (or fixation dot) for 1 second. During this interval, participants were instructed to maintain their gaze on the fixation dot. Following this eye fixation period, the 20-second video presentation started. Notably, the first frame of
+the video remained frozen for 1 second which comprised the time-window for the ERP analysis of this work. After each video, participants were prompted to respond to two affective questions  "How did you perceive this video?", with answers from 1 = very unpleasant, to 9 = very pleasant; and "How did this video make you feel", with answers from 1 = very sleepy, to 9 = very alert. The questions consisted of a modified version of the Affective Slider \cite{betellaAffectiveSliderDigital2016}. This scale is itself based on the original \acrfull{sam} \cite{bradleyMeasuringEmotionSelfassessment1994a}. Finally, a 1 second inter-trial interval period occurred, featuring a blank white screen \ref{fig:task_scheme}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/task_summary.png}
+	\caption{Schematic illustrating the experimental procedure. \textbf{a)} Photo of the setup in which the participant performed the experiment. \textbf{b)} Square representing the different categorizations of the videos used as stimuli. For this work only natural index was studied by creating a natural and urban-built condition. \textbf{c)} Each trial began with a dot fixation period of 1 second followed by a 20-second video presentation, with the first frame frozen for 1 second. After each video, participants rated the video based on their perceived levels of valence and arousal using a modified affective slider scale. This sequence was repeated for all 72 videos. \label{fig:task_scheme}}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Behavioral Data Analysis}
+\label{behavioral_methods}
+ 
+Differences between means in ratings across conditions were assessed using a dependent samples t-test, and, in case its assumptions were not met, the Wilcoxon signed-rank test. Tests were implemented in python 3.12 using the scypy package \cite{2020SciPy-NMeth}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{EEG data Analysis}
+\label{section:eeg_methods}
+
+
+\subsection{EEG preprocessing}
+\label{section:preprocessing}
+
+EEG data were preprocessed on MATLAB (R2024a) using functions from the EEGLAB (v2024.2) toolbox \cite{delormeEEGLABOpensourceToolbox2004} and custom-made functions. From the total of 30 subjects, one subject's EEG data was rejected due to a corrupted dataset which showed strong artifacts on the  frequency spectrum.
+
+\subsubsection{Filtering and re-sampling}
+
+Data was filtered by first applying a high-pass filter followed by a low-pass filter. Both were zero-phase and non-causal filters. The high-pass \acrfull{fir} filter kernel had an order of 1500 points with a highpass edge at 1 Hz. Cutting-off frequencies below 1 Hz removes the DC offset from the data and the lowpass cutoff of 40 Hz removes the 50 Hz line noise from the data while retaining the most important physiological frequencies. The it was performed a 85 point lowpass filtering with a lowpass edge at 40 Hz (cutoff: 44.9 Hz; transition bandwidth: 9.8 Hz). The choice of applying separate filters was to minimize ripple artifacts. Next, data were downsampled from 500 Hz to 250 Hz to decrease memory requirements and speed up computation at no loss of critical information \cite{cohenAnalyzingNeuralTime2014}.
+
+\subsubsection{Channel Rejection}
+
+Afterwards, channels were rejected using the \texttt{pop\char`_rejchan} function from EEGLAB. This function rejects channels using different characteristics of the recorded channel data. These were: 1) joint probability of EEG data for each channel; 2) kurtosis; 3) power spectrum. Channels that were flagged as bad by at least one of these methods were rejected.
+
+\subsubsection{ICA decomposition}
+
+Independent component analyisis (ICA) was applied to the data via the runica algorithm, implemented in EEGLAB's \texttt{runica} function \cite{makeigIndependentComponentAnalysis1995}. Rejection of independent components was done automatically with IClabel with the
+default parameters: muscle > 0.9, eye > 0.9 \cite{pion-tonachiniICLabelAutomatedElectroencephalographic2019}.
+
+\subsubsection{Interpolation and re-referencing}
+
+Priorly removed EEG channels were added back to the data using an EEGLAB-based spherical spline interpolation algorithm \cite{perrinSphericalSplinesScalp1989}. Finally, data were re-referenced to a common average montage \cite{bertrandTheoreticalJustificationAverage1985}. Since the EEG cap used had full head coverage, including the regions of the neck and face, the \acrfull{pare} is minimized thereby controlling for the bias of an incomplete channel coverage of the head \cite{junghoferPolarAverageReference1999, nunezElectricFieldsBrain2006}.
+
+\subsubsection{Spatial Smoothing}
+
+Due to the resistance of the skull to the propagation of the electrical field, voltage values get smoothed spatilly across electrodes. As such, because \acrshort{esi} algorithms are severely sensitive to EEG artifacts, visual inspection of the scalp topography can quickly uncover the presence of voltage outliers otherwise hidden in the EEG timeseries \cite{michelDataAcquisitionPreprocessing2009}. It was applied an instantaneous filter which removes local outliers by spatially smoothing the maps without losing its topographical characteristics \cite{michelEEGSourceImaging2019}. The effects of this filter can be see on figure \ref{fig:spatial_filter}. In essence, the filter acts as an Inter Septile Weighted Mean, where for each electrode $e$:
+
+\begin{equation}
+    S p a t i a l F i l t e r(e)=\left(\sum\nolimits_{i=1}^{i=5}{\frac{v_{i}}{d_{i}}}\right)/\left(\sum\nolimits_{i=1}^{i=5}{\frac{1}{d_{i}}}\right)
+\end{equation}
+
+With $v_{i}$ being the 5 remaining voltage values from the 6 nearest neighbors of electrode $e$, plus the central value, each being at distance $d_{i}$.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/spatial_filter.png}
+	\caption{Topographical maps from one trial of one subject showing the smoothing effect of the spatial filter on the voltage scalp topography. \label{fig:spatial_filter}}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Event-related Potentials}
+\label{section:erps}
+
+\subsubsection{Epoching}
+
+The event-related potential was defined on a time window of -200 to 1000 ms relative to stimulus onset. Classically, ERP studies apply a baseline subtraction of pre-stimulus activity. The rationale behind this procedure comes from the success of earlier ERP studies, which naturally followed that brain activity recorded from EEG was dependent only on stimulus onset and could be modelled as \begin{equation}
+\text{EEG} = \text{ERP} + \text{EEG "noise"}
+\end{equation}
+However, this view is incompatible with current theories of brain functionality and, most importantly, with the underlying assumptions made by \acrshort{esi} algorithms when computing the forward model \cite{delormeWhatBestERP2023, delormeEEGBetterLeft2023}. One study has already shown that baseline subtraction decreases the reliability of ICA decomposition \cite{groppeIdentifyingReliableIndependent2009}. Therefore, to safeguard source estimation accuracy, no baseline subtraction was performed.
+
+\subsubsection{Trial rejection}
+
+Before sorting the trials into conditions, trials were rejected based on z-normalized values of channel covariance above a threshold of $\pm 3$ SD \cite{cohenAnalyzingNeuralTime2014} and z-normalized values of band power from 1 to 40 Hz also above a threshold of $\pm 3$ SD.
+
+\subsubsection{Defining EPN and LPP components}
+
+The EPN component was defined on a time-interval from 150-300 ms after stimulus onset and for the channels P7, PO7, O1, O2, PO8, and P8 \cite{junghoferFleetingImagesNew2001, farkasEmotionalFeaturebasedModulation2020}. In the case of the LPP component the time-window was defined from 400-900 ms after stimulus onset and for the channels Cz, CPz, CP1, CP2, and Pz \cite{hajcakEventRelatedPotentialsEmotion2010, farkasEmotionalFeaturebasedModulation2020}. Due to the high channel density of the EEG cap, neighbouring channels were also added for the ERP computation. In this way SNR is increased without losing much spatial accuracy as intersensor distance is quite low \cite{luuHydroCelGSN102005} (figure \ref{fig:components_example}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/lpp_epn_components.png}
+	\caption{Plot of ERPs for one subject showcasing how the EPN and LPP components were assessed. On the upper part of the figure is depicted the EPN component as defined in the interval of 150-300 ms, and for parietal-temporal electrodes as seen on the cluster of the 3D plot at its right. On the bottom is depicted the LPP component as defined in the interval of 400-900 ms, and for central-parietal electrodes, illustrated at its right. \label{fig:components_example}}
+\end{figure}
+
+\subsection{Statistical Analysis}
+
+The field of EEG research, frequently deals with high-dimensional data. However, classical statistical procedures in the field were based on prior assumptions of the data, thereby focusing analysis on a subset of the original dataset. The mass univariate approach (MUA) has been recommended as a solution to avoid biased measurements in ERP studies. This method consists in taking a large number of univariate tests, e.g. t tests to properly compare ERPs \cite{groppeMassUnivariateAnalysis2011a}. This approach is particularly valuable in preventing bias that might arise when grand-averaged waveforms are used to guide analysis procedures \cite{luckHowGetStatistically2017}. 
+
+The MUA poses a statistical challenge, as the same statistical test must be applied to every channel, time point, and frequency of interest. However, the likelihood of type I errors (false positives) significantly increases as each additional test contributes to a higher family-wise error rate (FWER) \cite{groppeMassUnivariateAnalysis2011a}.
+
+One robust strategy for correcting multiple comparisons is through the use of permutation tests. Permutation-based methods aim to estimate the null distribution by randomly shuffling the data labels, in this case between the natural and urban-built conditions, and recalculating the test statistics for each permutation \cite{cohenAnalyzingNeuralTime2014, marisNonparametricStatisticalTesting2007}. This approach is computationally intensive but highly effective, as it does not rely on parametric assumptions. While analyzing every channel and time point requires calculating an enormous number of statistics, which can result in a loss of statistical power when corrections are applied, the inherent dependencies in EEG data offer an alternative. EEG data often exhibit spatiotemporal dependencies, meaning that nearby channels, time points, or frequency bands are not entirely independent. Cluster-based permutation testing leverages these dependencies by grouping neighboring data points into clusters and testing their aggregate significance, thus preserving statistical power while controlling for multiple comparisons \cite{pernetClusterbasedComputationalMethods2015a}. The statistic to be permuted here are the individual t statistics computed for each datum point, and those t-statistics which are found to be statistically significant for an alpha-value of 0.05 will be used to compute clusters across space and time.
+
+Finally, the Threshold-Free Cluster Enhancement (TFCE) procedure, implemented in the FieldTrip toolbox, will be used to determine whether a specific cluster is statistically significant. It achieves this by generating a null distribution of cluster sizes from permuted data and identifying significant clusters as those exceeding a user-specified threshold of the null distribution \cite{pernetClusterbasedComputationalMethods2015a,oostenveldFieldTripOpenSource2011}.
+
+In addition to cluster-based testing, a second analysis will focus on specific ERP characteristics identified from predefined time windows and channel montages described in the literature. This approach allows for a more targeted examination of putative ERP components while addressing the limitations of grand-averages, which can obscure individual variability. By combining these analyses, this work aims to balance exploratory and confirmatory approaches which can guide subsequent source reconstruction analyses.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Source Reconstruction}
+\label{section:esi}
+
+Source reconstruction was only possible for the 10 subjects who had done structural MRI acquisitions. Out of these, only 8 subjects had appropriate DICOM files for creating the head model. From the 8 created head models, 7 had artifact-free structural MRI, as the other structural data were performed with EEG caps, which created visible electrode artifacts and affected head geometry.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Head Model Creation}
+\label{section:head_model}
+
+The creation of a head model was done using the MIP software from EGI's NetStation (version 5.4.2), This software creates a head model using the FDM approach by leveraging structural MRI data and electrode locations. The workflow is illustrated in Figure~\ref{fig:hm_egi} and outlined below.
+
+First, after loading the structural MRI into the MIP software, the Talairach landmarks must be manually localized. These include the anterior commissure (red cross), the posterior commissure (green cross), and a midpoint between the cerebral hemispheres (blue cross). These landmarks are critical for aligning the MRI data to a standardized anatomical space. 
+
+Next, the software identifies different brain tissue layers, such as the scalp, skull, cerebrospinal fluid, and brain tissue. Manual inspection of these layers ensures the accuracy of the segmentation process, which is vital for generating a reliable head model. After the segmentation is complete, the head model is generated based on the identified tissue boundaries. The software allows the user to choose the ammount of dipoles in the head model. The only two values are 2400 and 4800 dipoles. All head models were created with 4800 dipoles.
+
+The final step involves aligning the electrode locations, obtained through a digitization process, to the head model. This ensures that the electrode positions are accurately mapped to the anatomical structure, providing the foundation for source localization and further EEG analysis.
+
+ \begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/head_model_egi.png}
+	\caption{General workflow to create a head model using the MIP software from EGI. \textbf{a)} After loading the structural MRI it is necessary to localize the Talairach landmarks from the anterior commissure (red cross), the posterior commissure (green cross) and the in-between point localized between the cerebral hemispheres (blue cross). \textbf{b)} The next steps required manually inspecting the identified layers of different brain tissues. \textbf{c)} After generating the head model, the final step was to fit the scanned electrode locations to the head model. \label{fig:hm_egi}}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{ERP Source Localization}
+\label{section:erp_lcaolization}
+
+Source localization was performed using the \acrfull{sloreta} algorithm implemented in the Recipocity software (version 1.1) from the NetStation package (see figure \ref{fig:source_example}). From the available ESI algorithms, sLORETA has been found to give the best solution, regarding both localization error and ghost sources \cite{pascual-marquiStandardizedLowresolutionBrain2002, grechReviewSolvingInverse2008}. The time-windows of interest will be based on pre-computed ERP parameters, such as the latency of maximum amplitude. The Thikonov regularization parameter will be the default value of $10^{-3}$. This parameter regulates how sensitive the inversion algorithm is to the level of EEG noise. Increased regularization smooths results and reduces noise sensitivity, but excessive regularization compromises localization accuracy \cite{michelEEGSourceImaging2019}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/source_example.png}
+	\caption{\textbf{a)} \acrfull{gui} of the reciprocity software showing color-coded activity from the distributed sources. \textbf{b)} Visualization of the scalp projection of a selected group of dipoles. \label{fig:source_example}}
+\end{figure}
+
+Since sLORETA is a distributed source technique, every one of the 4800 dipoles had an associated electrical current value. To better assess which cortical sources contribute the most to the scalp topography, for each latency of interest it were selected those sources whose activity, measured in nanoampere (\SI{}{nA}), were at least 50\% of the maximum absolute value of activity at that time point. Additionally, those sources needed to contribute to the expected scalp topography of the ERP component, e.g. the posterior parietal/occipital region for the EPN component.
+
+Finally, the anatomical position of those sources will be assessed by the \acrfull{ba} in which they are situated \cite{brodmannBrodmannsLocalisationCerebral2005} (figure \ref{fig:ba_scheme}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/ba_areas.png}
+	\caption{Schematic depicting Broadmann Areas. Figure taken from \cite{strotzerOneCenturyBrain2009}. \label{fig:ba_scheme}}
+\end{figure}

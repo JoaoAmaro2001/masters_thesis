@@ -1,0 +1,77 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: abbrvunsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+Database file #1: ./Thesis_Bibliography_DB.bib
+Warning--I'm ignoring meidenbauerGradualDevelopmentPreference2019's extra "doi" field
+--line 377 of file ./Thesis_Bibliography_DB.bib
+Repeated entry---line 541 of file ./Thesis_Bibliography_DB.bib
+ : @article{vlietSevenQuickTips2020
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1038 of file ./Thesis_Bibliography_DB.bib
+ : @article{dattolaFindingsLORETAApplied2020
+ :                                          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1727 of file ./Thesis_Bibliography_DB.bib
+ : @article{daughertyMeasuringConsumerNeural2018
+ :                                              ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in bergerUeberElektrenkephalogrammMenschen1929
+Warning--empty year in bergerUeberElektrenkephalogrammMenschen1929
+Warning--empty year in bergerUeberElektrenkephalogrammMenschen1929
+Warning--empty publisher in luckIntroductionEventrelatedPotential2014
+Warning--empty year in nidalEEGERPAnalysis2014
+Warning--empty year in nidalEEGERPAnalysis2014
+Warning--empty booktitle in osmanERPSourceLocalization2007
+Warning--empty journal in betellaAffectiveSliderDigital2016
+Warning--empty year in betellaAffectiveSliderDigital2016
+Warning--empty year in betellaAffectiveSliderDigital2016
+Warning--empty journal in bradleyMeasuringEmotionSelfassessment1994a
+Warning--empty year in bradleyMeasuringEmotionSelfassessment1994a
+Warning--empty year in bradleyMeasuringEmotionSelfassessment1994a
+Warning--empty journal in mavrosAttenuatingSubjectiveCrowding2023
+You've used 116 entries,
+            2481 wiz_defined-function locations,
+            1506 strings with 39110 characters,
+and the built_in function-call counts, 51855 in all, are:
+= -- 4434
+> -- 3225
+< -- 58
++ -- 1206
+- -- 972
+* -- 4761
+:= -- 8743
+add.period$ -- 579
+call.type$ -- 116
+change.case$ -- 228
+chr.to.int$ -- 114
+cite$ -- 130
+duplicate$ -- 2199
+empty$ -- 4145
+format.name$ -- 1158
+if$ -- 10644
+int.to.chr$ -- 3
+int.to.str$ -- 117
+missing$ -- 122
+newline$ -- 816
+num.names$ -- 351
+pop$ -- 666
+preamble$ -- 1
+purify$ -- 116
+quote$ -- 0
+skip$ -- 1162
+stack$ -- 0
+substring$ -- 2308
+swap$ -- 325
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 785
+warning$ -- 14
+while$ -- 397
+width$ -- 0
+write$ -- 1958
+(There were 3 error messages)

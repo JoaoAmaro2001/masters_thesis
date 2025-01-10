@@ -1,0 +1,86 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Results.tex                                         %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  4 Mar 2024                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Results}
+\label{chapter:results}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Behavioral Analysis}
+\label{section:behavioral_analysis}
+
+Two environmental categories were compared using an dependent samples t-test for valence and arousal ratings (figure \ref{fig:val_aro_diff}). The natural videos (M = 6.85, SD = 0.64) were rated as inducing more self-perceived valence than the urban-built videos [M = 4.87, SD = 0.83; t(29) = 13.303, p < 0.001, d = 2.429]. Arousal ratings did not show a normal distribution (Shapiro-Wilk: p<0.05), therefore it was employed the Wilcoxon Signed-Rank Test. Natural videos (M = 5.07, SD = 0.95) were rated as inducing more self-perceived arousal than the urban-built videos [M = 5.83, SD = 0.82; W=82.00, p < 0.0013].
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/valence_arousal_diff.png}
+	\caption{On the left is a box plot showing the distribution of differences for all participants. On the right are bar plot showing differences in mean valence and arousal scores across both conditions with the 95\% confidence intervals plotted on top. Asterisks(*) denote the level of statistical significance: * $p<0.05$, ** $p<0.01$, *** $p<0.001$. \label{fig:val_aro_diff}}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{ERP analysis}
+\label{section:baseline}
+
+\subsection{Grand average ERP}
+
+The TFCE method was computed for a total of 50,000 permutations applied to the grand-averaged ERP of all the participants. Neighbouring channel information available made available by EGI was used to create the neighbours matrix, which is essential to assess spatial clustering. Figure \ref{fig:cluster_analysis} shows the results of the paired t-test performed for every channel-point datum in the grand-averaged ERP. No clusters were labelled as statistically significant after correcting for multiple comparisons.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/cluster_stat.png}
+	\caption{Statistical map containing the t statistics for every space-time voltage datum. After applying the correction for multiple comparisons, no clusters were statistically significant has shown in the masked map. \label{fig:cluster_analysis}}
+\end{figure}
+
+A closer look at the grand-average ERP at the predefined channels and time points for the EPN and LPP is shown in figure \ref{fig:grand_average}. While there is no clear sustained positivity in the case of the LPP component, there is a strong EPN component which is stronger for urban stimuli when compared to natural stimuli. Additionally, this component is followed by a strong P3 component which is bigger for the natural condition. These results
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/grand_average.png}
+	\caption{Plot of ERPs for one subject. On the upper part of the figure is depicted the EPN component as defined in the interval of 150-300 ms, and for parietal-temporal electrodes as seen on the cluster of the 3D plot at its right. On the bottom part is depicted the LPP component as defined in the interval of 400-900 ms, and for central-parietal electrodes, illustrated at its right. \label{fig:grand_average}}
+\end{figure}
+
+
+\subsection{EPN and LPP metrics}
+
+The observations from visually inspecting the grand-average ERP waveform are further corroborated in part a) of figure \ref{fig:erp_boxplots} where it is shown boxplots containing data from ERP metrics for all participants. For the EPN, peak amplitude is consistently negative and its associated latency does not show much variance. The observed mean amplitude of near zero is due to the presence of a positive wave following the EPN at around 300 ms (P3 component). In contrast, the LPP does not show a stable positive voltage even as it oscillates slightly around zero. Additionally, there is also much bigger variance on the peak latency metric which should have been much smaller and centered around the later parts of the time window.
+
+Paired t-tests were conducted for three ERP metrics—peak amplitude, peak latency, and mean amplitude—analyzed separately for the EPN and LPP components. To account for multiple comparisons across the six statistical tests, Bonferroni correction was applied, setting the adjusted alpha level to 0.0083 ($\alpha = 0.05/6 = 0.0083$). None of the comparisons reached statistical significance after correction.
+
+For the EPN component, the statistical tests revealed the following results: peak amplitude (\textit{t}(29) = 1.216, \textit{p} = 0.2341, Cohen's \textit{d} = 0.226), mean amplitude (\textit{t}(29) = 1.988, \textit{p} = 0.0567, Cohen's \textit{d} = 0.369), and latency (Wilcoxon: \textit{W} = 95.500, \textit{p} = 0.1932). Similarly, for the LPP component, the results were as follows: peak amplitude (Wilcoxon: \textit{W} = 210.000, \textit{p} = 0.8815), mean amplitude (\textit{t}(29) = 0.158, \textit{p} = 0.8757, Cohen's \textit{d} = 0.029), and latency (\textit{t}(29) = 2.270, \textit{p} = 0.0311, Cohen's \textit{d} = 0.422). Differences between conditions for each component and metric are shown in part b) of figure \ref{fig:erp_boxplots}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/erp_boxplots.png}
+	\caption{\textbf{a)} Boxplots representing the distibution of values for the peak amplitude, mean amplitude, and peak latency computed for the LPP and EPN components. \textbf{b)} Boxplots showing the distribution of values for the same ERP metrics on the difference between natural and urban-built conditions for the EPN and LPP components. \label{fig:erp_boxplots}}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Source estimation}
+\label{section:enhanced}
+
+Source estimation results were assessed for those participants showing a visible EPN component as it was the most prevalent component in the data, contrary to the LPP. From the 7 subjects with head models, 6 of these showed a clear posterior negativity. Results for these subjects are shown in figure \ref{fig:source_results}. From this figure it is possible to give qualitative insights of whole brain activity, specifically the global differences on how the different stimuli are processed. The first thing to note is the high between-subject variability. This variability is observable for the strength of the dipole currents, for source clusters, and source polarity.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/source_results.png}
+	\caption{Whole-brain plots from 6 subjects visualized from a ventral perspective of the brain with the posterior end situated in the upper part of the brain. The sources were computed at the time point corresponding to the peak negativity of the EPN component. Note that the hemispheric orientation is inverted. \label{fig:source_results}}
+\end{figure}
+
+Additionally, the results regarding dipoles with stronger currents reveal interesting differences in brain activity between natural and urban conditions, as measured by dipole counts and anatomical engagement. Across subjects, urban conditions tend to elicit a higher or comparable number of stronger dipoles compared to natural conditions, suggesting urban stimuli tend to elicit more focalized activity and natural stimuli tend to have more distributed activity.
+
+Anatomically, the left temporal region emerges as the most frequently activated area in urban conditions, highlighting its involvement in processing complex sensory and cognitive demands typical of urban settings. In contrast, natural conditions show greater engagement in the right temporal region and more variable activation patterns across other areas, such as the frontal and occipital cortices. The Brodmann Area analysis further underscores the prominence of temporal poles (more predominantly the BA38 and to a lesser extent the BA20) in both conditions, which corresponds to the anterior temporal areas (see figure \ref{fig:ba_scheme}). Visual and parahippocampal regions, particularly in urban conditions, also exhibit notable activity, emphasizing the neural processing demands of visually dense and dynamic urban environments (figure \ref{fig:stronger_dipoles}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/stronger_dipoles.png}
+	\caption{Boxplots representing showcasing which brain regions had the most number of high dipole densities for the nature and urban conditions. \label{fig:stronger_dipoles}}
+\end{figure}
+
+% ----------------------------------------------------------------------

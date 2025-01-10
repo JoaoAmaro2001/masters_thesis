@@ -1,0 +1,1067 @@
+\begin{thebibliography}{116}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Schomer and
+  da~Silva(2018)]{schomerNiedermeyersElectroencephalographyBasic2018}
+D.~L. Schomer and F.~H.~L. da~Silva.
+\newblock \emph{Niedermeyer's {{Electroencephalography}}: {{Basic Principles}},
+  {{Clinical Applications}}, and {{Related Fields}}}.
+\newblock Oxford University Press, 2018.
+\newblock ISBN 978-0-19-022848-4.
+
+\bibitem[Berger()]{bergerUeberElektrenkephalogrammMenschen1929}
+H.~Berger.
+\newblock Uber das elektrenkephalogramm des menschen.
+\newblock 87\penalty0 (1):\penalty0 527--570.
+\newblock ISSN 1433-8491.
+\newblock \doi{10.1007/BF01797193}.
+\newblock URL \url{https://doi.org/10.1007/BF01797193}.
+
+\bibitem[Biasiucci et~al.(2019)Biasiucci, Franceschiello, and
+  Murray]{biasiucciElectroencephalography2019}
+A.~Biasiucci, B.~Franceschiello, and M.~M. Murray.
+\newblock Electroencephalography.
+\newblock \emph{Current Biology}, 29\penalty0 (3):\penalty0 R80--R85, Feb.
+  2019.
+\newblock ISSN 09609822.
+\newblock \doi{10.1016/j.cub.2018.11.052}.
+
+\bibitem[Amer and Belhaouari(2023)]{amerEEGSignalProcessing2023}
+N.~S. Amer and S.~B. Belhaouari.
+\newblock {{EEG Signal Processing}} for {{Medical Diagnosis}}, {{Healthcare}},
+  and {{Monitoring}}: {{A Comprehensive Review}}.
+\newblock \emph{IEEE Access}, 11:\penalty0 143116--143142, 2023.
+\newblock ISSN 2169-3536.
+\newblock \doi{10.1109/ACCESS.2023.3341419}.
+
+\bibitem[Michel and Murray(2012)]{michelUtilizationEEGBrain2012}
+C.~M. Michel and M.~M. Murray.
+\newblock Towards the utilization of {{EEG}} as a brain imaging tool.
+\newblock \emph{NeuroImage}, 61\penalty0 (2):\penalty0 371--385, June 2012.
+\newblock ISSN 10538119.
+\newblock \doi{10.1016/j.neuroimage.2011.12.039}.
+
+\bibitem[Subha et~al.(2010)Subha, Joseph, U., and Lim]{Subha2010EEGSA}
+D.~P. Subha, P.~K. Joseph, R.~A. U., and C.~M. Lim.
+\newblock {{EEG}} signal analysis: A survey.
+\newblock \emph{Journal of Medical Systems}, 34:\penalty0 195--212, 2010.
+
+\bibitem[Cohen(2014)]{cohenAnalyzingNeuralTime2014}
+M.~X. Cohen.
+\newblock \emph{Analyzing {{Neural Time Series Data}}: {{Theory}} and
+  {{Practice}}}.
+\newblock The MIT Press, Jan. 2014.
+\newblock ISBN 978-0-262-31955-3.
+\newblock \doi{10.7551/mitpress/9609.001.0001}.
+
+\bibitem[Mushtaq et~al.(2024)Mushtaq, Welke, Gallagher, Pavlov, Kouara, Bosch,
+  Bosch, Arvaneh, Bland, Chaumon, Borck, He, Luck, Machizawa, Pernet, Puce,
+  Segalowitz, Rogers, Awais, and {S-So}]{mushtaqOneHundredYears2024}
+F.~Mushtaq, D.~Welke, A.~Gallagher, Y.~Pavlov, L.~Kouara, J.~Bosch, J.~Bosch,
+  M.~Arvaneh, A.~Bland, M.~Chaumon, C.~Borck, X.~He, S.~Luck, M.~Machizawa,
+  C.~Pernet, A.~Puce, S.~Segalowitz, C.~Rogers, M.~Awais, and V.~{S-So}.
+\newblock One hundred years of {{EEG}} for brain and behaviour research.
+\newblock \emph{Nature Human Behaviour}, 8, Aug. 2024.
+\newblock \doi{10.1038/s41562-024-01941-5}.
+
+\bibitem[Nunez and Srinivasan(2006)]{nunezElectricFieldsBrain2006}
+P.~L. Nunez and R.~Srinivasan.
+\newblock \emph{Electric {{Fields}} of the {{Brain}}: {{The Neurophysics}} of
+  {{EEG}}}.
+\newblock Oxford University Press, 2006.
+\newblock ISBN 978-0-19-505038-7.
+
+\bibitem[Bear et~al.(2020)Bear, Connors, and
+  Paradiso]{bearNeuroscienceExploringBrain2020}
+M.~Bear, B.~Connors, and M.~A. Paradiso.
+\newblock \emph{Neuroscience: {{Exploring}} the {{Brain}}, {{Enhanced
+  Edition}}}.
+\newblock Jones \& Bartlett Learning, LLC, Burlington, 4th ed edition, 2020.
+\newblock ISBN 978-1-284-21128-3 978-1-284-61874-7.
+
+\bibitem[Niedermeyer(1996)]{niedermeyerDipoleTheoryElectroencephalography1996}
+E.~Niedermeyer.
+\newblock Dipole theory and electroencephalography.
+\newblock \emph{Clinical EEG (electroencephalography)}, 27\penalty0
+  (3):\penalty0 121--131, July 1996.
+\newblock ISSN 0009-9155.
+\newblock \doi{10.1177/155005949602700305}.
+
+\bibitem[Lopes Da~Silva and Storm
+  Van~Leeuwen(1977)]{lopesdasilvaCorticalSourceAlpha1977}
+F.~Lopes Da~Silva and W.~Storm Van~Leeuwen.
+\newblock The cortical source of the alpha rhythm.
+\newblock \emph{Neuroscience Letters}, 6\penalty0 (2-3):\penalty0 237--241,
+  Nov. 1977.
+\newblock ISSN 03043940.
+\newblock \doi{10.1016/0304-3940(77)90024-6}.
+
+\bibitem[Neymotin et~al.(2020)Neymotin, Daniels, Caldwell, McDougal, Carnevale,
+  Jas, Moore, Hines, H{\"a}m{\"a}l{\"a}inen, and
+  Jones]{neymotinHumanNeocorticalNeurosolver2020}
+S.~A. Neymotin, D.~S. Daniels, B.~Caldwell, R.~A. McDougal, N.~T. Carnevale,
+  M.~Jas, C.~I. Moore, M.~L. Hines, M.~H{\"a}m{\"a}l{\"a}inen, and S.~R. Jones.
+\newblock Human {{Neocortical Neurosolver}} ({{HNN}}), a new software tool for
+  interpreting the cellular and network origin of human {{MEG}}/{{EEG}} data.
+\newblock \emph{eLife}, 9:\penalty0 e51214, Jan. 2020.
+\newblock ISSN 2050-084X.
+\newblock \doi{10.7554/eLife.51214}.
+
+\bibitem[Luck(2014)]{luckIntroductionEventrelatedPotential2014}
+S.~J. S.~J. Luck.
+\newblock \emph{An introduction to the event-related potential technique}.
+\newblock 2nd edition edition, 2014.
+\newblock ISBN 978-0-262-52585-5.
+\newblock Pages: 406.
+
+\bibitem[Delorme and Makeig(2004)]{delormeEEGLABOpensourceToolbox2004}
+A.~Delorme and S.~Makeig.
+\newblock {{EEGLAB}}: An open-source toolbox for analysis of {{EEG}} dynamics.
+\newblock \emph{Journal of neuroscience methods}, 134:\penalty0 9--21, Apr.
+  2004.
+\newblock \doi{10.1016/j.jneumeth.2003.10.009}.
+
+\bibitem[Delorme(2023{\natexlab{a}})]{delormeWhatBestERP2023}
+A.~Delorme.
+\newblock What is the best {{ERP}} baseline?, Apr. 2023{\natexlab{a}}.
+\newblock URL \url{https://www.youtube.com/watch?v=2wS7-XILNso}.
+
+\bibitem[Donoghue and
+  Voytek(2022)]{donoghueAutomatedMetaanalysisEventrelated2022}
+T.~Donoghue and B.~Voytek.
+\newblock Automated meta-analysis of the event-related potential ({ERP})
+  literature.
+\newblock \emph{Scientific Reports}, 12\penalty0 (1):\penalty0 1867--1867, Feb.
+  2022.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-022-05939-9}.
+\newblock Number: 1.
+
+\bibitem[Kappenman and Luck(2011)]{kappenmanERPComponentsUps2011}
+E.~S. Kappenman and S.~J. Luck.
+\newblock \emph{{ERP} {Components}: {The} {Ups} and {Downs} of {Brainwave}
+  {Recordings}}.
+\newblock Oxford University Press, Dec. 2011.
+\newblock \doi{10.1093/oxfordhb/9780195374148.013.0014}.
+\newblock Pages: 30.
+
+\bibitem[Ismail and Karwowski(2020)]{ismailApplicationsEEGIndices2020}
+L.~E. Ismail and W.~Karwowski.
+\newblock Applications of {EEG} indices for the quantification of human
+  cognitive performance: {A} systematic review and bibliometric analysis.
+\newblock \emph{PLoS ONE}, 15\penalty0 (12 December), Dec. 2020.
+\newblock \doi{10.1371/journal.pone.0242857}.
+\newblock Number: 12 December Publisher: Public Library of Science.
+
+\bibitem[Makeig(1993)]{makeigAuditoryEventrelatedDynamics1993a}
+S.~Makeig.
+\newblock Auditory event-related dynamics of the {{EEG}} spectrum and effects
+  of exposure to tones.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology},
+  86\penalty0 (4):\penalty0 283--293, Apr. 1993.
+\newblock ISSN 00134694.
+\newblock \doi{10.1016/0013-4694(93)90110-H}.
+
+\bibitem[Luck and Kappenman(2013)]{luckOxfordHandbookEventrelated2013}
+S.~J. Luck and E.~S. Kappenman, editors.
+\newblock \emph{The {{Oxford}} Handbook of Event-Related Potential Components}.
+\newblock Oxford Library of Psychology. Oxford Univ. Press, Oxford, 1. issued
+  as an oxford university press paperback edition, 2013.
+\newblock ISBN 978-0-19-932804-8.
+
+\bibitem[Murray et~al.(2019)Murray, Ouyang, and
+  Donaldson]{murrayCompensationTrialtoTrialLatency2019}
+J.~G. Murray, G.~Ouyang, and D.~I. Donaldson.
+\newblock Compensation of {{Trial-to-Trial Latency Jitter Reveals}} the
+  {{Parietal Retrieval Success Effect}} to be {{Both Variable}} and
+  {{Thresholded}} in {{Older Adults}}.
+\newblock \emph{Frontiers in Aging Neuroscience}, 11:\penalty0 179, July 2019.
+\newblock ISSN 1663-4365.
+\newblock \doi{10.3389/fnagi.2019.00179}.
+
+\bibitem[Song et~al.(2015)Song, Davey, Poulsen, Luu, Turovets, Anderson, Li,
+  and Tucker]{songEEGSourceLocalization2015}
+J.~Song, C.~Davey, C.~Poulsen, P.~Luu, S.~Turovets, E.~Anderson, K.~Li, and
+  D.~Tucker.
+\newblock {{EEG}} source localization: {{Sensor}} density and head surface
+  coverage.
+\newblock \emph{Journal of Neuroscience Methods}, 256:\penalty0 9--21, Dec.
+  2015.
+\newblock ISSN 01650270.
+\newblock \doi{10.1016/j.jneumeth.2015.08.015}.
+
+\bibitem[Baillet et~al.(2001)Baillet, Mosher, and
+  Leahy]{bailletElectromagneticBrainMapping2001}
+S.~Baillet, J.~Mosher, and R.~Leahy.
+\newblock Electromagnetic brain mapping.
+\newblock \emph{IEEE Signal Processing Magazine}, 18\penalty0 (6):\penalty0
+  14--30, Nov. 2001.
+\newblock ISSN 1558-0792.
+\newblock \doi{10.1109/79.962275}.
+\newblock URL \url{https://ieeexplore.ieee.org/document/962275}.
+\newblock Conference Name: IEEE Signal Processing Magazine.
+
+\bibitem[Zorzos et~al.(2021)Zorzos, Kakkos, Ventouras, and
+  Matsopoulos]{zorzosAdvancesElectricalSource2021}
+I.~Zorzos, I.~Kakkos, E.~M. Ventouras, and G.~K. Matsopoulos.
+\newblock Advances in {Electrical} {Source} {Imaging}: {A} {Review} of the
+  {Current} {Approaches}, {Applications} and {Challenges}.
+\newblock \emph{Signals}, 2\penalty0 (3):\penalty0 378--391, June 2021.
+\newblock \doi{10.3390/signals2030024}.
+\newblock Number: 3 Publisher: MDPI AG.
+
+\bibitem[Hallez et~al.(2007)Hallez, Vanrumste, Grech, Muscat, De~Clercq,
+  Vergult, D'Asseler, Camilleri, Fabri, Van~Huffel, and
+  Lemahieu]{hallezReviewSolvingForward2007a}
+H.~Hallez, B.~Vanrumste, R.~Grech, J.~Muscat, W.~De~Clercq, A.~Vergult,
+  Y.~D'Asseler, K.~P. Camilleri, S.~G. Fabri, S.~Van~Huffel, and I.~Lemahieu.
+\newblock Review on solving the forward problem in {{EEG}} source analysis.
+\newblock \emph{Journal of NeuroEngineering and Rehabilitation}, 4\penalty0
+  (1):\penalty0 46, Dec. 2007.
+\newblock ISSN 1743-0003.
+\newblock \doi{10.1186/1743-0003-4-46}.
+
+\bibitem[Akalin~Acar and Makeig(2013)]{akalinacarEffectsForwardModel2013}
+Z.~Akalin~Acar and S.~Makeig.
+\newblock Effects of forward model errors on {{EEG}} source localization.
+\newblock \emph{Brain Topography}, 26\penalty0 (3):\penalty0 378--396, July
+  2013.
+\newblock ISSN 1573-6792.
+\newblock \doi{10.1007/s10548-012-0274-6}.
+
+\bibitem[Brodbeck et~al.(2011)Brodbeck, Spinelli, Lascano, Wissmeier, Vargas,
+  Vulliemoz, Pollo, Schaller, Michel, and
+  Seeck]{brodbeckElectroencephalographicSourceImaging2011}
+V.~Brodbeck, L.~Spinelli, A.~M. Lascano, M.~Wissmeier, M.-I. Vargas,
+  S.~Vulliemoz, C.~Pollo, K.~Schaller, C.~M. Michel, and M.~Seeck.
+\newblock Electroencephalographic source imaging: A prospective study of 152
+  operated epileptic patients.
+\newblock \emph{Brain}, 134\penalty0 (10):\penalty0 2887--2897, Oct. 2011.
+\newblock ISSN 0006-8950, 1460-2156.
+\newblock \doi{10.1093/brain/awr243}.
+
+\bibitem[Depuydt et~al.(2024)Depuydt, Criel, De~Letter, and
+  Van~Mierlo]{depuydtInvestigatingEffectTemplate2024}
+E.~Depuydt, Y.~Criel, M.~De~Letter, and P.~Van~Mierlo.
+\newblock Investigating the effect of template head models on {{Event-Related
+  Potential}} source localization: A simulation and real-data study.
+\newblock \emph{Frontiers in Neuroscience}, 18:\penalty0 1443752, Oct. 2024.
+\newblock ISSN 1662-453X.
+\newblock \doi{10.3389/fnins.2024.1443752}.
+
+\bibitem[Shirazi and Huang(2019)]{shiraziMoreReliableEEG2019}
+S.~Y. Shirazi and H.~J. Huang.
+\newblock More {{Reliable EEG Electrode Digitizing Methods Can Reduce Source
+  Estimation Uncertainty}}, but {{Current Methods Already Accurately Identify
+  Brodmann Areas}}.
+\newblock \emph{Frontiers in Neuroscience}, 13, Nov. 2019.
+\newblock ISSN 1662-453X.
+\newblock \doi{10.3389/fnins.2019.01159}.
+
+\bibitem[Michel and Brunet(2019)]{michelEEGSourceImaging2019}
+C.~M. Michel and D.~Brunet.
+\newblock {EEG} source imaging: {A} practical review of the analysis steps.
+\newblock \emph{Frontiers in Neurology}, 10\penalty0 (APR), 2019.
+\newblock ISSN 16642295.
+\newblock \doi{10.3389/fneur.2019.00325}.
+\newblock Number: APR Publisher: Frontiers Media S.A.
+
+\bibitem[H{\"a}m{\"a}l{\"a}inen and
+  Ilmoniemi(1994)]{hamalainenInterpretingMagneticFields1994}
+M.~S. H{\"a}m{\"a}l{\"a}inen and R.~J. Ilmoniemi.
+\newblock Interpreting magnetic fields of the brain: Minimum norm estimates.
+\newblock \emph{Medical \& Biological Engineering \& Computing}, 32\penalty0
+  (1):\penalty0 35--42, Jan. 1994.
+\newblock ISSN 0140-0118, 1741-0444.
+\newblock \doi{10.1007/BF02512476}.
+
+\bibitem[Grave De Peralta~Menendez et~al.(2004)Grave De Peralta~Menendez,
+  Murray, Michel, Martuzzi, and
+  Gonzalez~Andino]{gravedeperaltamenendezElectricalNeuroimagingBased2004a}
+R.~Grave De Peralta~Menendez, M.~M. Murray, C.~M. Michel, R.~Martuzzi, and
+  S.~L. Gonzalez~Andino.
+\newblock Electrical neuroimaging based on biophysical constraints.
+\newblock \emph{NeuroImage}, 21\penalty0 (2):\penalty0 527--539, Feb. 2004.
+\newblock ISSN 10538119.
+\newblock \doi{10.1016/j.neuroimage.2003.09.051}.
+
+\bibitem[{Pascual-Marqui} et~al.(1994){Pascual-Marqui}, Michel, and
+  Lehmann]{pascual-marquiLowResolutionElectromagnetic1994}
+R.~{Pascual-Marqui}, C.~Michel, and D.~Lehmann.
+\newblock Low resolution electromagnetic tomography: A new method for
+  localizing electrical activity in the brain.
+\newblock \emph{International Journal of Psychophysiology}, 18\penalty0
+  (1):\penalty0 49--65, Oct. 1994.
+\newblock ISSN 01678760.
+\newblock \doi{10.1016/0167-8760(84)90014-X}.
+
+\bibitem[{Pascual-Marqui}(2002)]{pascual-marquiStandardizedLowresolutionBrain2002}
+R.~D. {Pascual-Marqui}.
+\newblock Standardized low-resolution brain electromagnetic tomography
+  ({{sLORETA}}): Technical details.
+\newblock \emph{Methods and Findings in Experimental and Clinical
+  Pharmacology}, 24 Suppl D:\penalty0 5--12, 2002.
+\newblock ISSN 0379-0355.
+
+\bibitem[Nidal and Malik()]{nidalEEGERPAnalysis2014}
+K.~Nidal and A.~S. Malik.
+\newblock \emph{{{EEG}}/{{ERP Analysis}}: {{Methods}} and {{Applications}}}.
+\newblock CRC Press.
+\newblock ISBN 978-1-4822-2471-9.
+
+\bibitem[Osman et~al.(2007)Osman, Ieuji, and
+  Stefanatos]{osmanERPSourceLocalization2007}
+A.~Osman, Y.~Ieuji, and G.~A. Stefanatos.
+\newblock {ERP} {Source} {Localization} in {NeuroCognitive} {Rehabilitation}
+  {Research}.
+\newblock 2007.
+\newblock URL \url{https://api.semanticscholar.org/CorpusID:49528653}.
+
+\bibitem[Das et~al.(2023)Das, Martin, Zurales, Dowling, and
+  Khan]{dasSurveyEEGData2023}
+R.~K. Das, A.~Martin, T.~Zurales, D.~Dowling, and A.~Khan.
+\newblock A {{Survey}} on {{EEG Data Analysis Software}}.
+\newblock \emph{Sci}, 5\penalty0 (2):\penalty0 23, June 2023.
+\newblock ISSN 2413-4155.
+\newblock \doi{10.3390/sci5020023}.
+
+\bibitem[Gramfort(2013)]{gramfortMEGEEGData2013}
+A.~Gramfort.
+\newblock {{MEG}} and {{EEG}} data analysis with {{MNE-Python}}.
+\newblock \emph{Frontiers in Neuroscience}, 7, 2013.
+\newblock ISSN 1662453X.
+\newblock \doi{10.3389/fnins.2013.00267}.
+
+\bibitem[Gramfort et~al.(2014)Gramfort, Luessi, Larson, Engemann, Strohmeier,
+  Brodbeck, Parkkonen, and
+  H{\"a}m{\"a}l{\"a}inen]{gramfortMNESoftwareProcessing2014}
+A.~Gramfort, M.~Luessi, E.~Larson, D.~A. Engemann, D.~Strohmeier, C.~Brodbeck,
+  L.~Parkkonen, and M.~S. H{\"a}m{\"a}l{\"a}inen.
+\newblock {{MNE}} software for processing {{MEG}} and {{EEG}} data.
+\newblock \emph{NeuroImage}, 86:\penalty0 446--460, Feb. 2014.
+\newblock ISSN 10538119.
+\newblock \doi{10.1016/j.neuroimage.2013.10.027}.
+
+\bibitem[Adli et~al.(2017)Adli, Berger, Brakemeier, Engel, Fingerhut,
+  Gomez-Carrillo, Hehl, Heinz, H, Mehran, Tolaas, Walter, Weiland, and
+  Stollmann]{adliNeurourbanismNewDiscipline2017}
+M.~Adli, M.~Berger, E.-L. Brakemeier, L.~Engel, J.~Fingerhut,
+  A.~Gomez-Carrillo, R.~Hehl, A.~Heinz, J.~M. H, N.~Mehran, S.~Tolaas,
+  H.~Walter, U.~Weiland, and J.~Stollmann.
+\newblock Neurourbanism: towards a new discipline.
+\newblock \emph{The Lancet Psychiatry}, 4\penalty0 (3):\penalty0 183--185, Mar.
+  2017.
+\newblock ISSN 22150366.
+\newblock \doi{10.1016/S2215-0366(16)30371-6}.
+\newblock Number: 3.
+
+\bibitem[Galea and Vlahov(2005)]{galeaURBANHEALTHEvidence2005}
+S.~Galea and D.~Vlahov.
+\newblock {URBAN} {HEALTH}: {Evidence}, {Challenges}, and {Directions}.
+\newblock \emph{Annual Review of Public Health}, 26\penalty0 (1):\penalty0
+  341--365, Apr. 2005.
+\newblock \doi{10.1146/annurev.publhealth.26.021304.144708}.
+\newblock Number: 1.
+
+\bibitem[Ventriglio et~al.(2021)Ventriglio, Torales, Castaldelli-Maia,
+  De~Berardis, and Bhugra]{ventriglioUrbanizationEmergingMental2021}
+A.~Ventriglio, J.~Torales, J.~M. Castaldelli-Maia, D.~De~Berardis, and
+  D.~Bhugra.
+\newblock Urbanization and emerging mental health issues.
+\newblock \emph{CNS Spectrums}, 26\penalty0 (1):\penalty0 43--50, Feb. 2021.
+\newblock ISSN 1092-8529.
+\newblock \doi{10.1017/S1092852920001236}.
+\newblock Number: 1.
+
+\bibitem[Kondo et~al.(2018)Kondo, Jacoby, and South]{kondoDoesSpendingTime2018}
+M.~C. Kondo, S.~F. Jacoby, and E.~C. South.
+\newblock Does spending time outdoors reduce stress? {A} review of real-time
+  stress response to outdoor environments.
+\newblock \emph{Health \& Place}, 51:\penalty0 136--150, May 2018.
+\newblock ISSN 1353-8292.
+\newblock \doi{10.1016/j.healthplace.2018.03.001}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1353829217307633}.
+
+\bibitem[Meidenbauer et~al.(2019)Meidenbauer, Stenfors, Young, Layden, Schertz,
+  Kardan, Decety, and Berman]{meidenbauerGradualDevelopmentPreference2019}
+K.~L. Meidenbauer, C.~U. Stenfors, J.~Young, E.~A. Layden, K.~E. Schertz,
+  O.~Kardan, J.~Decety, and M.~G. Berman.
+\newblock The gradual development of the preference for natural environments.
+\newblock \emph{Journal of Environmental Psychology}, 65:\penalty0
+  101328--101328, Oct. 2019.
+\newblock ISSN 02724944.
+\newblock \doi{10.1016/j.jenvp.2019.101328}.
+
+\bibitem[Ohly et~al.(2016)Ohly, White, Wheeler, Bethel, Ukoumunne, Nikolaou,
+  and Garside]{ohlyAttentionRestorationTheory2016}
+H.~Ohly, M.~P. White, B.~W. Wheeler, A.~Bethel, O.~C. Ukoumunne, V.~Nikolaou,
+  and R.~Garside.
+\newblock Attention {Restoration} {Theory}: {A} systematic review of the
+  attention restoration potential of exposure to natural environments.
+\newblock \emph{Journal of Toxicology and Environmental Health, Part B},
+  19\penalty0 (7):\penalty0 305--343, Oct. 2016.
+\newblock ISSN 1093-7404.
+\newblock \doi{10.1080/10937404.2016.1196155}.
+\newblock Number: 7.
+
+\bibitem[Kaplan(1995)]{kaplanRestorativeBenefitsNature1995}
+S.~Kaplan.
+\newblock The restorative benefits of nature: {{Toward}} an integrative
+  framework.
+\newblock \emph{Journal of Environmental Psychology}, 15\penalty0 (3):\penalty0
+  169--182, Sept. 1995.
+\newblock ISSN 0272-4944.
+\newblock \doi{10.1016/0272-4944(95)90001-2}.
+
+\bibitem[Ulrich(1983)]{ulrichAestheticAffectiveResponse1983}
+R.~S. Ulrich.
+\newblock Aesthetic and {{Affective Response}} to {{Natural Environment}}.
+\newblock In I.~Altman and J.~F. Wohlwill, editors, \emph{Behavior and the
+  {{Natural Environment}}}, pages 85--125. Springer US, Boston, MA, 1983.
+\newblock ISBN 978-1-4613-3539-9.
+\newblock \doi{10.1007/978-1-4613-3539-9_4}.
+
+\bibitem[Jimenez et~al.(2021)Jimenez, DeVille, Elliott, Schiff, Wilt, Hart, and
+  James]{jimenezAssociationsNatureExposure2021}
+M.~P. Jimenez, N.~V. DeVille, E.~G. Elliott, J.~E. Schiff, G.~E. Wilt, J.~E.
+  Hart, and P.~James.
+\newblock Associations between {Nature} {Exposure} and {Health}: {A} {Review}
+  of the {Evidence}.
+\newblock \emph{International Journal of Environmental Research and Public
+  Health}, 18\penalty0 (9):\penalty0 4790--4790, Apr. 2021.
+\newblock \doi{10.3390/ijerph18094790}.
+\newblock Number: 9.
+
+\bibitem[Mondschein and
+  Moga(2018)]{mondscheinNewDirectionsCognitiveEnvironmental2018}
+A.~Mondschein and S.~T. Moga.
+\newblock New {Directions} in {Cognitive}-{Environmental} {Research}.
+\newblock \emph{Journal of the American Planning Association}, 84\penalty0
+  (3-4):\penalty0 263--275, Oct. 2018.
+\newblock ISSN 0194-4363.
+\newblock \doi{10.1080/01944363.2018.1526644}.
+\newblock Number: 3-4.
+
+\bibitem[Fredrickson(2000)]{fredricksonCultivatingPositiveEmotions2000}
+B.~L. Fredrickson.
+\newblock Cultivating positive emotions to optimize health and well-being.
+\newblock \emph{Prevention \& Treatment}, 3\penalty0 (1), Mar. 2000.
+\newblock ISSN 1522-3736.
+\newblock \doi{10.1037/1522-3736.3.1.31a}.
+
+\bibitem[Lang(1995)]{langEmotionProbeStudies1995}
+P.~J. Lang.
+\newblock The emotion probe: {{Studies}} of motivation and attention.
+\newblock \emph{American Psychologist}, 50\penalty0 (5):\penalty0 372--385,
+  1995.
+\newblock ISSN 1935-990X.
+\newblock \doi{10.1037/0003-066X.50.5.372}.
+
+\bibitem[Russell(1980)]{russellCircumplexModelAffect1980}
+J.~A. Russell.
+\newblock A circumplex model of affect.
+\newblock \emph{Journal of Personality and Social Psychology}, 39\penalty0
+  (6):\penalty0 1161--1178, 1980.
+\newblock ISSN 1939-1315.
+\newblock \doi{10.1037/h0077714}.
+
+\bibitem[Bradley and Lang(1994)]{bradleyMeasuringEmotionSelfassessment1994}
+M.~M. Bradley and P.~J. Lang.
+\newblock Measuring emotion: {The} self-assessment manikin and the semantic
+  differential.
+\newblock \emph{Journal of Behavior Therapy and Experimental Psychiatry},
+  25\penalty0 (1):\penalty0 49--59, Mar. 1994.
+\newblock ISSN 0005-7916.
+\newblock \doi{10.1016/0005-7916(94)90063-9}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0005791694900639}.
+
+\bibitem[Betella and Verschure()]{betellaAffectiveSliderDigital2016}
+A.~Betella and P.~F. M.~J. Verschure.
+\newblock The {{Affective Slider}}: {{A Digital Self-Assessment Scale}} for the
+  {{Measurement}} of {{Human Emotions}}.
+\newblock 11\penalty0 (2):\penalty0 e0148037.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0148037}.
+\newblock URL
+  \url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0148037}.
+
+\bibitem[Ancora et~al.(2022)Ancora, Blanco-Mora, Alves, Bonifácio, Morgado,
+  and Miranda]{ancoraCitiesNeuroscienceResearch2022}
+L.~A. Ancora, D.~A. Blanco-Mora, I.~Alves, A.~Bonifácio, P.~Morgado, and
+  B.~Miranda.
+\newblock Cities and neuroscience research: {A} systematic literature review.
+\newblock \emph{Frontiers in Psychiatry}, 13, Nov. 2022.
+\newblock \doi{10.3389/fpsyt.2022.983352}.
+\newblock Publisher: Frontiers Media S.A.
+
+\bibitem[Berkman and Falk(2013)]{berkmanBrainMapping2013}
+E.~T. Berkman and E.~B. Falk.
+\newblock Beyond {Brain} {Mapping}.
+\newblock \emph{Current Directions in Psychological Science}, 22\penalty0
+  (1):\penalty0 45--50, Feb. 2013.
+\newblock ISSN 0963-7214.
+\newblock \doi{10.1177/0963721412469394}.
+\newblock Number: 1.
+
+\bibitem[Rahman et~al.(2021)Rahman, Sarkar, Hossain, Hossain, Islam, Hossain,
+  Quinn, and Moni]{rahmanRecognitionHumanEmotions2021}
+M.~M. Rahman, A.~K. Sarkar, M.~A. Hossain, M.~S. Hossain, M.~R. Islam, M.~B.
+  Hossain, J.~M. Quinn, and M.~A. Moni.
+\newblock Recognition of human emotions using {EEG} signals: {A} review.
+\newblock \emph{Computers in Biology and Medicine}, 136, Sept. 2021.
+\newblock ISSN 18790534.
+\newblock \doi{10.1016/j.compbiomed.2021.104696}.
+\newblock Publisher: Elsevier Ltd.
+
+\bibitem[Lang et~al.(1999)Lang, Bradley, Cuthbert,
+  et~al.]{lang1999international}
+P.~J. Lang, M.~M. Bradley, B.~N. Cuthbert, et~al.
+\newblock International affective picture system ({{IAPS}}): {{Instruction}}
+  manual and affective ratings.
+\newblock \emph{The center for research in psychophysiology, University of
+  Florida}, 1999.
+
+\bibitem[Olofsson et~al.(2008)Olofsson, Nordin, Sequeira, and
+  Polich]{olofssonAffectivePictureProcessing2008}
+J.~K. Olofsson, S.~Nordin, H.~Sequeira, and J.~Polich.
+\newblock Affective picture processing: {{An}} integrative review of {{ERP}}
+  findings.
+\newblock \emph{Biological Psychology}, 77\penalty0 (3):\penalty0 247--265,
+  Mar. 2008.
+\newblock ISSN 03010511.
+\newblock \doi{10.1016/j.biopsycho.2007.11.006}.
+
+\bibitem[Farkas and Sabatinelli(2023)]{farkasEmotionalPerceptionDivergence2023}
+A.~H. Farkas and D.~Sabatinelli.
+\newblock Emotional {{Perception}}: {{Divergence}} of {{Early}} and {{Late
+  Event-related Potential Modulation}}.
+\newblock \emph{Journal of Cognitive Neuroscience}, 35\penalty0 (6):\penalty0
+  941--956, June 2023.
+\newblock ISSN 0898-929X, 1530-8898.
+\newblock \doi{10.1162/jocn_a_01984}.
+
+\bibitem[Farkas et~al.(2020)Farkas, Oliver, and
+  Sabatinelli]{farkasEmotionalFeaturebasedModulation2020}
+A.~H. Farkas, K.~I. Oliver, and D.~Sabatinelli.
+\newblock Emotional and feature-based modulation of the early posterior
+  negativity.
+\newblock \emph{Psychophysiology}, 57\penalty0 (2):\penalty0 e13484, Feb. 2020.
+\newblock ISSN 0048-5772, 1469-8986.
+\newblock \doi{10.1111/psyp.13484}.
+
+\bibitem[Hajcak et~al.(2010)Hajcak, MacNamara, and
+  Olvet]{hajcakEventRelatedPotentialsEmotion2010}
+G.~Hajcak, A.~MacNamara, and D.~M. Olvet.
+\newblock Event-{Related} {Potentials}, {Emotion}, and {Emotion} {Regulation}:
+  {An} {Integrative} {Review}.
+\newblock \emph{Developmental Neuropsychology}, 35\penalty0 (2):\penalty0
+  129--155, Feb. 2010.
+\newblock \doi{10.1080/87565640903526504}.
+\newblock Number: 2.
+
+\bibitem[Jungh{\"o}fer et~al.(2001)Jungh{\"o}fer, Bradley, Elbert, and
+  Lang]{junghoferFleetingImagesNew2001}
+M.~Jungh{\"o}fer, M.~M. Bradley, T.~R. Elbert, and P.~J. Lang.
+\newblock Fleeting images: {{A}} new look at early emotion discrimination.
+\newblock \emph{Psychophysiology}, 38\penalty0 (2):\penalty0 175--178, Mar.
+  2001.
+\newblock ISSN 0048-5772, 1469-8986.
+\newblock \doi{10.1111/1469-8986.3820175}.
+
+\bibitem[Dattola et~al.(2020)Dattola, Morabito, Mammone, and
+  La~Foresta]{dattolaFindingsLORETAApplied2020}
+S.~Dattola, F.~C. Morabito, N.~Mammone, and F.~La~Foresta.
+\newblock Findings about {{LORETA Applied}} to {{High-Density EEG}}---{{A
+  Review}}.
+\newblock \emph{Electronics}, 9\penalty0 (4):\penalty0 660, Apr. 2020.
+\newblock ISSN 2079-9292.
+\newblock \doi{10.3390/electronics9040660}.
+
+\bibitem[Daugherty et~al.(2018)Daugherty, Hoffman, Kennedy, and
+  Nolan]{daughertyMeasuringConsumerNeural2018}
+T.~Daugherty, E.~Hoffman, K.~Kennedy, and M.~Nolan.
+\newblock Measuring consumer neural activation to differentiate cognitive
+  processing of advertising: {Revisiting} {Krugman}.
+\newblock \emph{European Journal of Marketing}, 52\penalty0 (1-2):\penalty0
+  182--198, Feb. 2018.
+\newblock \doi{10.1108/EJM-10-2017-0657}.
+\newblock Number: 1-2 Publisher: Emerald Group Holdings Ltd.
+
+\bibitem[Tsolaki et~al.(2017)Tsolaki, Kosmidou, Kompatsiaris, Papadaniil,
+  Hadjileontiadis, and Tsolaki]{tsolakiAgeinducedDifferencesBrain2017}
+A.~C. Tsolaki, V.~E. Kosmidou, I.~Y. Kompatsiaris, C.~Papadaniil,
+  L.~Hadjileontiadis, and M.~Tsolaki.
+\newblock Age-induced differences in brain neural activation elicited by visual
+  emotional stimuli: {A} high-density {EEG} study.
+\newblock \emph{Neuroscience}, 340:\penalty0 268--278, Jan. 2017.
+\newblock ISSN 18737544.
+\newblock \doi{10.1016/j.neuroscience.2016.10.059}.
+\newblock Publisher: Elsevier Ltd.
+
+\bibitem[Ashton and Lee(2007)]{ashtonEmpiricalTheoreticalPractical2007}
+M.~C. Ashton and K.~Lee.
+\newblock Empirical, theoretical, and practical advantages of the {{HEXACO}}
+  model of personality structure.
+\newblock \emph{Personality and Social Psychology Review: An Official Journal
+  of the Society for Personality and Social Psychology, Inc}, 11\penalty0
+  (2):\penalty0 150--166, May 2007.
+\newblock ISSN 1088-8683.
+\newblock \doi{10.1177/1088868306294907}.
+
+\bibitem[Ashton and Lee(2001)]{ashtonTheoreticalBasisMajor2001}
+M.~C. Ashton and K.~Lee.
+\newblock A theoretical basis for the major dimensions of personality.
+\newblock \emph{European Journal of Personality}, 15\penalty0 (5):\penalty0
+  327--353, Sept. 2001.
+\newblock ISSN 0890-2070, 1099-0984.
+\newblock \doi{10.1002/per.417}.
+
+\bibitem[Lee and Ashton(2018)]{leePsychometricPropertiesHEXACO1002018}
+K.~Lee and M.~C. Ashton.
+\newblock Psychometric {{Properties}} of the {{HEXACO-100}}.
+\newblock \emph{Assessment}, 25\penalty0 (5):\penalty0 543--556, July 2018.
+\newblock ISSN 1552-3489.
+\newblock \doi{10.1177/1073191116659134}.
+
+\bibitem[Carver and White(1994)]{carverBehavioralInhibitionBehavioral1994}
+C.~S. Carver and T.~L. White.
+\newblock Behavioral inhibition, behavioral activation, and affective responses
+  to impending reward and punishment: {{The BIS}}/{{BAS Scales}}.
+\newblock \emph{Journal of Personality and Social Psychology}, 67\penalty0
+  (2):\penalty0 319--333, 1994.
+\newblock ISSN 1939-1315.
+\newblock \doi{10.1037/0022-3514.67.2.319}.
+
+\bibitem[Diener et~al.(1985)Diener, Emmons, Larsen, and
+  Griffin]{dienerSatisfactionLifeScale1985a}
+E.~Diener, R.~A. Emmons, R.~J. Larsen, and S.~Griffin.
+\newblock The {{Satisfaction With Life Scale}}.
+\newblock \emph{Journal of Personality Assessment}, 49\penalty0 (1):\penalty0
+  71--75, Feb. 1985.
+\newblock ISSN 0022-3891.
+\newblock \doi{10.1207/s15327752jpa4901_13}.
+
+\bibitem[Lovibond and Lovibond(1995)]{lovibondStructureNegativeEmotional1995}
+P.~F. Lovibond and S.~H. Lovibond.
+\newblock The structure of negative emotional states: {{Comparison}} of the
+  {{Depression Anxiety Stress Scales}} ({{DASS}}) with the {{Beck Depression}}
+  and {{Anxiety Inventories}}.
+\newblock \emph{Behaviour Research and Therapy}, 33\penalty0 (3):\penalty0
+  335--343, 1995.
+\newblock ISSN 1873-622X.
+\newblock \doi{10.1016/0005-7967(94)00075-U}.
+
+\bibitem[Andreassen et~al.(2012)Andreassen, Torsheim, Brunborg, and
+  Pallesen]{andreassenDevelopmentFacebookAddiction2012}
+C.~S. Andreassen, T.~Torsheim, G.~S. Brunborg, and S.~Pallesen.
+\newblock Development of a {{Facebook Addiction Scale}}.
+\newblock \emph{Psychological Reports}, 110\penalty0 (2):\penalty0 501--517,
+  Apr. 2012.
+\newblock ISSN 0033-2941, 1558-691X.
+\newblock \doi{10.2466/02.09.18.PR0.110.2.501-517}.
+
+\bibitem[B{\'a}nyai et~al.(2017)B{\'a}nyai, Zsila, Kir{\'a}ly, Maraz, Elekes,
+  Griffiths, Andreassen, and Demetrovics]{banyaiProblematicSocialMedia2017}
+F.~B{\'a}nyai, {\'A}.~Zsila, O.~Kir{\'a}ly, A.~Maraz, Z.~Elekes, M.~D.
+  Griffiths, C.~S. Andreassen, and Z.~Demetrovics.
+\newblock Problematic {{Social Media Use}}: {{Results}} from a {{Large-Scale
+  Nationally Representative Adolescent Sample}}.
+\newblock \emph{PLOS ONE}, 12\penalty0 (1):\penalty0 e0169839, Jan. 2017.
+\newblock ISSN 1932-6203.
+\newblock \doi{10.1371/journal.pone.0169839}.
+
+\bibitem[Watson et~al.(1988)Watson, Clark, and
+  Tellegen]{watsonDevelopmentValidationBrief1988}
+D.~Watson, L.~A. Clark, and A.~Tellegen.
+\newblock Development and validation of brief measures of positive and negative
+  affect: {{The PANAS}} scales.
+\newblock \emph{Journal of Personality and Social Psychology}, 54\penalty0
+  (6):\penalty0 1063--1070, 1988.
+\newblock ISSN 1939-1315.
+\newblock \doi{10.1037/0022-3514.54.6.1063}.
+
+\bibitem[Crawford and Henry(2004)]{crawfordPositiveNegativeAffect2004}
+J.~R. Crawford and J.~D. Henry.
+\newblock The positive and negative affect schedule ({{PANAS}}): Construct
+  validity, measurement properties and normative data in a large non-clinical
+  sample.
+\newblock \emph{The British Journal of Clinical Psychology}, 43\penalty0 (Pt
+  3):\penalty0 245--265, Sept. 2004.
+\newblock ISSN 0144-6657.
+\newblock \doi{10.1348/0144665031752934}.
+
+\bibitem[Tucker(1993)]{tuckerSpatialSamplingHead1993}
+D.~M. Tucker.
+\newblock Spatial sampling of head electrical fields: The geodesic sensor net.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology},
+  87\penalty0 (3):\penalty0 154--163, Sept. 1993.
+\newblock ISSN 00134694.
+\newblock \doi{10.1016/0013-4694(93)90121-B}.
+
+\bibitem[Luu and Ferree(2005)]{luuHydroCelGSN102005}
+P.~Luu and T.~Ferree.
+\newblock Determination of the {{HydroCel}} geodesic sensor nets' average
+  electrode positions and their 10--10 international equivalents.
+\newblock Technical report, Electrical Geodesics, Inc., Oct. 2005.
+
+\bibitem[Asaad and Eskandar(2008)]{asaadFlexibleSoftwareTool2008}
+W.~F. Asaad and E.~N. Eskandar.
+\newblock A flexible software tool for temporally-precise behavioral control in
+  {{Matlab}}.
+\newblock \emph{Journal of Neuroscience Methods}, 174\penalty0 (2):\penalty0
+  245--258, Sept. 2008.
+\newblock ISSN 01650270.
+\newblock \doi{10.1016/j.jneumeth.2008.07.014}.
+
+\bibitem[Pelli(1997)]{pelliVideoToolboxSoftwareVisual1997}
+D.~G. Pelli.
+\newblock The {{VideoToolbox}} software for visual psychophysics: Transforming
+  numbers into movies.
+\newblock \emph{Spatial Vision}, 10\penalty0 (4):\penalty0 437--442, 1997.
+\newblock ISSN 0169-1015, 1568-5683.
+\newblock \doi{10.1163/156856897X00366}.
+
+\bibitem[Brainard(1997)]{brainardPsychophysicsToolbox1997}
+D.~H. Brainard.
+\newblock The {{Psychophysics Toolbox}}.
+\newblock \emph{Spatial Vision}, 10\penalty0 (4):\penalty0 433--436, 1997.
+\newblock ISSN 0169-1015, 1568-5683.
+\newblock \doi{10.1163/156856897X00357}.
+
+\bibitem[Kleiner et~al.(2007)Kleiner, Brainard, Pelli, Ingling, Murray, and
+  Broussard]{cecbb7f7e1544489b920fd276dc6eb0c}
+M.~Kleiner, D.~Brainard, D.~Pelli, A.~Ingling, R.~Murray, and C.~Broussard.
+\newblock {What's new in psychtoolbox-3}.
+\newblock \emph{Perception}, 36\penalty0 (14):\penalty0 1--16, 2007.
+\newblock ISSN 0301-0066.
+
+\bibitem[Bradley and Lang()]{bradleyMeasuringEmotionSelfassessment1994a}
+M.~M. Bradley and P.~J. Lang.
+\newblock Measuring emotion: {{The}} self-assessment manikin and the semantic
+  differential.
+\newblock 25\penalty0 (1):\penalty0 49--59.
+\newblock ISSN 0005-7916.
+\newblock \doi{10.1016/0005-7916(94)90063-9}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/0005791694900639}.
+
+\bibitem[Virtanen et~al.(2020)Virtanen, Gommers, Oliphant, Haberland, Reddy,
+  Cournapeau, Burovski, Peterson, Weckesser, Bright, {van der Walt}, Brett,
+  Wilson, Millman, Mayorov, Nelson, Jones, Kern, Larson, Carey, Polat, Feng,
+  Moore, VanderPlas, Laxalde, Perktold, Cimrman, Henriksen, Quintero, Harris,
+  Archibald, Ribeiro, Pedregosa, {van Mulbregt}, and {SciPy 1.0
+  Contributors}]{2020SciPy-NMeth}
+P.~Virtanen, R.~Gommers, T.~E. Oliphant, M.~Haberland, T.~Reddy, D.~Cournapeau,
+  E.~Burovski, P.~Peterson, W.~Weckesser, J.~Bright, S.~J. {van der Walt},
+  M.~Brett, J.~Wilson, K.~J. Millman, N.~Mayorov, A.~R.~J. Nelson, E.~Jones,
+  R.~Kern, E.~Larson, C.~J. Carey, {\.I}.~Polat, Y.~Feng, E.~W. Moore,
+  J.~VanderPlas, D.~Laxalde, J.~Perktold, R.~Cimrman, I.~Henriksen, E.~A.
+  Quintero, C.~R. Harris, A.~M. Archibald, A.~H. Ribeiro, F.~Pedregosa, P.~{van
+  Mulbregt}, and {SciPy 1.0 Contributors}.
+\newblock {{SciPy}} 1.0: {{Fundamental}} algorithms for scientific computing in
+  python.
+\newblock \emph{Nature Methods}, 17:\penalty0 261--272, 2020.
+\newblock \doi{10.1038/s41592-019-0686-2}.
+
+\bibitem[Makeig et~al.(1995)Makeig, Bell, Jung, and
+  Sejnowski]{makeigIndependentComponentAnalysis1995}
+S.~Makeig, A.~Bell, T.-P. Jung, and T.~J. Sejnowski.
+\newblock Independent {{Component Analysis}} of {{Electroencephalographic
+  Data}}.
+\newblock In \emph{Advances in {{Neural Information Processing Systems}}},
+  volume~8. MIT Press, 1995.
+
+\bibitem[{Pion-Tonachini} et~al.(2019){Pion-Tonachini}, {Kreutz-Delgado}, and
+  Makeig]{pion-tonachiniICLabelAutomatedElectroencephalographic2019}
+L.~{Pion-Tonachini}, K.~{Kreutz-Delgado}, and S.~Makeig.
+\newblock {{ICLabel}}: {{An}} automated electroencephalographic independent
+  component classifier, dataset, and website.
+\newblock \emph{NeuroImage}, 198:\penalty0 181--197, Sept. 2019.
+\newblock ISSN 1053-8119.
+\newblock \doi{10.1016/j.neuroimage.2019.05.026}.
+
+\bibitem[Perrin et~al.(1989)Perrin, Pernier, Bertrand, and
+  Echallier]{perrinSphericalSplinesScalp1989}
+F.~Perrin, J.~Pernier, O.~Bertrand, and J.~F. Echallier.
+\newblock Spherical splines for scalp potential and current density mapping.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology},
+  72\penalty0 (2):\penalty0 184--187, Feb. 1989.
+\newblock ISSN 0013-4694.
+\newblock \doi{10.1016/0013-4694(89)90180-6}.
+
+\bibitem[Bertrand et~al.(1985)Bertrand, Perrin, and
+  Pernier]{bertrandTheoreticalJustificationAverage1985}
+O.~Bertrand, F.~Perrin, and J.~Pernier.
+\newblock A theoretical justification of the average reference in topographic
+  evoked potential studies.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology/Evoked
+  Potentials Section}, 62\penalty0 (6):\penalty0 462--464, Nov. 1985.
+\newblock ISSN 01685597.
+\newblock \doi{10.1016/0168-5597(85)90058-9}.
+
+\bibitem[Jungh{\"o}fer et~al.(1999)Jungh{\"o}fer, Elbert, Tucker, and
+  Braun]{junghoferPolarAverageReference1999}
+M.~Jungh{\"o}fer, T.~Elbert, D.~Tucker, and C.~Braun.
+\newblock The polar average reference effect: A bias in estimating the head
+  surface integral in {{EEG}} recording.
+\newblock \emph{Clinical Neurophysiology}, 110\penalty0 (6):\penalty0
+  1149--1155, June 1999.
+\newblock ISSN 13882457.
+\newblock \doi{10.1016/S1388-2457(99)00044-9}.
+
+\bibitem[Michel and Brandeis(2009)]{michelDataAcquisitionPreprocessing2009}
+C.~Michel and D.~Brandeis.
+\newblock Data acquisition and pre-processing standards for electrical
+  neuroimaging.
+\newblock \emph{Electrical Neuroimaging}, July 2009.
+\newblock ISSN 9780521879798.
+\newblock \doi{10.1017/CBO9780511596889.005}.
+
+\bibitem[Delorme(2023{\natexlab{b}})]{delormeEEGBetterLeft2023}
+A.~Delorme.
+\newblock {{EEG}} is better left alone.
+\newblock \emph{Scientific Reports}, 13\penalty0 (1):\penalty0 2372, Feb.
+  2023{\natexlab{b}}.
+\newblock ISSN 2045-2322.
+\newblock \doi{10.1038/s41598-023-27528-0}.
+
+\bibitem[Groppe et~al.(2009)Groppe, Makeig, and
+  Kutas]{groppeIdentifyingReliableIndependent2009}
+D.~M. Groppe, S.~Makeig, and M.~Kutas.
+\newblock Identifying reliable independent components via split-half
+  comparisons.
+\newblock \emph{NeuroImage}, 45\penalty0 (4):\penalty0 1199--1211, May 2009.
+\newblock ISSN 1053-8119.
+\newblock \doi{10.1016/j.neuroimage.2008.12.038}.
+
+\bibitem[Groppe et~al.(2011)Groppe, Urbach, and
+  Kutas]{groppeMassUnivariateAnalysis2011a}
+D.~M. Groppe, T.~P. Urbach, and M.~Kutas.
+\newblock Mass univariate analysis of event-related brain potentials/fields
+  {{I}}: {{A}} critical tutorial review.
+\newblock \emph{Psychophysiology}, 48\penalty0 (12):\penalty0 1711--1725, Dec.
+  2011.
+\newblock ISSN 0048-5772, 1469-8986.
+\newblock \doi{10.1111/j.1469-8986.2011.01273.x}.
+
+\bibitem[Luck and Gaspelin(2017)]{luckHowGetStatistically2017}
+S.~J. Luck and N.~Gaspelin.
+\newblock How to get statistically significant effects in any {{ERP}}
+  experiment (and why you shouldn't).
+\newblock \emph{Psychophysiology}, 54\penalty0 (1):\penalty0 146--157, 2017.
+\newblock ISSN 1469-8986.
+\newblock \doi{10.1111/psyp.12639}.
+
+\bibitem[Maris and Oostenveld(2007)]{marisNonparametricStatisticalTesting2007}
+E.~Maris and R.~Oostenveld.
+\newblock Nonparametric statistical testing of {{EEG-}} and {{MEG-data}}.
+\newblock \emph{Journal of Neuroscience Methods}, 164\penalty0 (1):\penalty0
+  177--190, Aug. 2007.
+\newblock ISSN 01650270.
+\newblock \doi{10.1016/j.jneumeth.2007.03.024}.
+
+\bibitem[Pernet et~al.(2015)Pernet, Latinus, Nichols, and
+  Rousselet]{pernetClusterbasedComputationalMethods2015a}
+C.~R. Pernet, M.~Latinus, T.~E. Nichols, and G.~A. Rousselet.
+\newblock Cluster-based computational methods for mass univariate analyses of
+  event-related brain potentials/fields: {{A}} simulation study.
+\newblock \emph{Journal of Neuroscience Methods}, 250:\penalty0 85--93, July
+  2015.
+\newblock ISSN 1872-678X.
+\newblock \doi{10.1016/j.jneumeth.2014.08.003}.
+
+\bibitem[Oostenveld et~al.(2011)Oostenveld, Fries, Maris, and
+  Schoffelen]{oostenveldFieldTripOpenSource2011}
+R.~Oostenveld, P.~Fries, E.~Maris, and J.-M. Schoffelen.
+\newblock {{FieldTrip}}: {{Open}} source software for advanced analysis of
+  {{MEG}}, {{EEG}}, and invasive electrophysiological data.
+\newblock \emph{Computational Intelligence and Neuroscience}, 2011:\penalty0
+  156869, 2011.
+\newblock ISSN 1687-5273.
+\newblock \doi{10.1155/2011/156869}.
+
+\bibitem[Grech et~al.(2008)Grech, Cassar, Muscat, Camilleri, Fabri, Zervakis,
+  Xanthopoulos, Sakkalis, and Vanrumste]{grechReviewSolvingInverse2008}
+R.~Grech, T.~Cassar, J.~Muscat, K.~P. Camilleri, S.~G. Fabri, M.~Zervakis,
+  P.~Xanthopoulos, V.~Sakkalis, and B.~Vanrumste.
+\newblock Review on solving the inverse problem in {{EEG}} source analysis.
+\newblock \emph{Journal of NeuroEngineering and Rehabilitation}, 5\penalty0
+  (1):\penalty0 25, Dec. 2008.
+\newblock ISSN 1743-0003.
+\newblock \doi{10.1186/1743-0003-5-25}.
+
+\bibitem[Brodmann(2005)]{brodmannBrodmannsLocalisationCerebral2005}
+K.~Brodmann.
+\newblock \emph{Brodmann's: {{Localisation}} in the {{Cerebral Cortex}}}.
+\newblock Springer, New York, NY, 3rd ed edition, 2005.
+\newblock ISBN 978-0-387-26917-7 978-0-387-26919-1.
+
+\bibitem[Strotzer(2009)]{strotzerOneCenturyBrain2009}
+M.~Strotzer.
+\newblock One {{Century}} of {{Brain Mapping Using Brodmann Areas}}*.
+\newblock \emph{Clinical Neuroradiology}, 19\penalty0 (3):\penalty0 179--186,
+  Aug. 2009.
+\newblock ISSN 0939-7116, 1615-6706.
+\newblock \doi{10.1007/s00062-009-9002-3}.
+
+\bibitem[Mahamane et~al.(2020)Mahamane, Wan, Porter, Hancock, Campbell, Lyon,
+  and Jordan]{mahamaneNaturalCategorizationElectrophysiological2020}
+S.~Mahamane, N.~Wan, A.~Porter, A.~S. Hancock, J.~Campbell, T.~E. Lyon, and
+  K.~E. Jordan.
+\newblock Natural {Categorization}: {Electrophysiological} {Responses} to
+  {Viewing} {Natural} {Versus} {Built} {Environments}.
+\newblock \emph{Frontiers in Psychology}, 11, June 2020.
+\newblock ISSN 1664-1078.
+\newblock \doi{10.3389/fpsyg.2020.00990}.
+
+\bibitem[Mavros et~al.(2022)Mavros, J~Wälti, Nazemi, Ong, and
+  Hölscher]{mavrosMobileEEGStudy2022}
+P.~Mavros, M.~J~Wälti, M.~Nazemi, C.~H. Ong, and C.~Hölscher.
+\newblock A mobile {EEG} study on the psychophysiological effects of walking
+  and crowding in indoor and outdoor urban environments.
+\newblock \emph{Scientific Reports}, 12\penalty0 (1), Dec. 2022.
+\newblock ISSN 20452322.
+\newblock \doi{10.1038/s41598-022-20649-y}.
+\newblock Number: 1 Publisher: Nature Research.
+
+\bibitem[Mavros et~al.(2023)Mavros, Ngoi, Kirk, Te, Grübel, Aguilar,
+  Olszewska-Guizzo, and Makowski]{mavrosAttenuatingSubjectiveCrowding2023}
+P.~Mavros, Z.~L. Ngoi, S.~Kirk, A.~S. Te, J.~Grübel, L.~Aguilar,
+  A.~Olszewska-Guizzo, and D.~Makowski.
+\newblock Attenuating subjective crowding through beauty: an online study on
+  the interaction between environment aesthetics, typology and crowdedness.
+\newblock July 2023.
+\newblock \doi{10.31234/osf.io/ezybm}.
+
+\bibitem[Sawilowsky(2009)]{sawilowskyNewEffectSize2009}
+S.~S. Sawilowsky.
+\newblock New {{Effect Size Rules}} of {{Thumb}}.
+\newblock \emph{Journal of Modern Applied Statistical Methods}, 8:\penalty0
+  597--599, Nov. 2009.
+\newblock ISSN 1538-9472.
+\newblock \doi{10.56801/10.56801/v8.i.452}.
+
+\bibitem[Karmanov and Hamel(2008)]{karmanovAssessingRestorativePotential2008}
+D.~Karmanov and R.~Hamel.
+\newblock Assessing the restorative potential of contemporary urban
+  environment(s): {{Beyond}} the nature versus urban dichotomy.
+\newblock \emph{Landscape and Urban Planning}, 86\penalty0 (2):\penalty0
+  115--125, May 2008.
+\newblock ISSN 01692046.
+\newblock \doi{10.1016/j.landurbplan.2008.01.004}.
+
+\bibitem[Shen et~al.(2024)Shen, He, He, Li, Liang, and
+  Xie]{shenBackVillageAssessing2024a}
+H.~Shen, X.~He, J.~He, D.~Li, M.~Liang, and X.~Xie.
+\newblock Back to the {{Village}}: {{Assessing}} the {{Effects}} of
+  {{Naturalness}}, {{Landscape Types}}, and {{Landscape Elements}} on the
+  {{Restorative Potential}} of {{Rural Landscapes}}.
+\newblock \emph{Land}, 13\penalty0 (7):\penalty0 910, June 2024.
+\newblock ISSN 2073-445X.
+\newblock \doi{10.3390/land13070910}.
+
+\bibitem[Grassini et~al.(2019)Grassini, Revonsuo, Castellotti, Petrizzo,
+  Benedetti, and Koivisto]{grassiniProcessingNaturalScenery2019}
+S.~Grassini, A.~Revonsuo, S.~Castellotti, I.~Petrizzo, V.~Benedetti, and
+  M.~Koivisto.
+\newblock Processing of natural scenery is associated with lower attentional
+  and cognitive load compared with urban ones.
+\newblock \emph{Journal of Environmental Psychology}, 62:\penalty0 1--11, Apr.
+  2019.
+\newblock \doi{10.1016/j.jenvp.2019.01.007}.
+
+\bibitem[Kim et~al.(2010{\natexlab{a}})Kim, Jeong, Baek, Kim, Sundaram, Kang,
+  Lee, Kim, and Song]{kimHumanBrainActivation2010}
+T.-H. Kim, G.-W. Jeong, H.-S. Baek, G.-W. Kim, T.~Sundaram, H.-K. Kang, S.-W.
+  Lee, H.-J. Kim, and J.-K. Song.
+\newblock Human brain activation in response to visual stimulation with rural
+  and urban scenery pictures: {A} functional magnetic resonance imaging study.
+\newblock \emph{Science of The Total Environment}, 408\penalty0 (12):\penalty0
+  2600--2607, May 2010{\natexlab{a}}.
+\newblock ISSN 00489697.
+\newblock \doi{10.1016/j.scitotenv.2010.02.025}.
+\newblock Number: 12.
+
+\bibitem[Kim et~al.(2010{\natexlab{b}})Kim, Jeong, Kim, Baek, Oh, Kang, Lee,
+  Kim, and Song]{kimFunctionalNeuroanatomyAssociated2010}
+G.-W. Kim, G.-W. Jeong, T.-H. Kim, H.-S. Baek, S.-K. Oh, H.-K. Kang, S.-G. Lee,
+  Y.~S. Kim, and J.-K. Song.
+\newblock Functional {Neuroanatomy} {Associated} with {Natural} and {Urban}
+  {Scenic} {Views} in the {Human} {Brain}: 3.{0T} {Functional} {MR} {Imaging}.
+\newblock \emph{Korean Journal of Radiology}, 11\penalty0 (5):\penalty0
+  507--507, 2010{\natexlab{b}}.
+\newblock \doi{10.3348/kjr.2010.11.5.507}.
+\newblock Number: 5.
+
+\bibitem[Mahjoory et~al.(2017)Mahjoory, Nikulin, Botrel, {Linkenkaer-Hansen},
+  Fato, and Haufe]{mahjooryConsistencyEEGSource2017}
+K.~Mahjoory, V.~V. Nikulin, L.~Botrel, K.~{Linkenkaer-Hansen}, M.~M. Fato, and
+  S.~Haufe.
+\newblock Consistency of {{EEG}} source localization and connectivity
+  estimates.
+\newblock \emph{NeuroImage}, 152:\penalty0 590--601, May 2017.
+\newblock ISSN 10538119.
+\newblock \doi{10.1016/j.neuroimage.2017.02.076}.
+
+\bibitem[Rozenkrants and Polich(2008)]{rozenkrantsAffectiveERPProcessing2008}
+B.~Rozenkrants and J.~Polich.
+\newblock Affective {{ERP}} processing in a visual oddball task: {{Arousal}},
+  valence, and gender.
+\newblock \emph{Clinical Neurophysiology}, 119\penalty0 (10):\penalty0
+  2260--2265, Oct. 2008.
+\newblock ISSN 13882457.
+\newblock \doi{10.1016/j.clinph.2008.07.213}.
+
+\bibitem[Schupp et~al.(2006)Schupp, Stockburger, Codispoti, Jungh{\"o}fer,
+  Weike, and Hamm]{schuppStimulusNoveltyEmotion2006}
+H.~T. Schupp, J.~Stockburger, M.~Codispoti, M.~Jungh{\"o}fer, A.~I. Weike, and
+  A.~O. Hamm.
+\newblock Stimulus novelty and emotion perception: The near absence of
+  habituation in the visual cortex.
+\newblock \emph{NeuroReport}, 17\penalty0 (4):\penalty0 365--369, Mar. 2006.
+\newblock ISSN 0959-4965.
+\newblock \doi{10.1097/01.wnr.0000203355.88061.c6}.
+
+\bibitem[Gorgolewski et~al.(2016)Gorgolewski, Auer, Calhoun, Craddock, Das,
+  Duff, Flandin, Ghosh, Glatard, Halchenko, Handwerker, Hanke, Keator, Li,
+  Michael, Maumet, Nichols, Nichols, Pellman, Poline, Rokem, Schaefer, Sochat,
+  Triplett, Turner, Varoquaux, and Poldrack]{gorgolewskiBrainImagingData2016}
+K.~J. Gorgolewski, T.~Auer, V.~D. Calhoun, R.~C. Craddock, S.~Das, E.~P. Duff,
+  G.~Flandin, S.~S. Ghosh, T.~Glatard, Y.~O. Halchenko, D.~A. Handwerker,
+  M.~Hanke, D.~Keator, X.~Li, Z.~Michael, C.~Maumet, B.~N. Nichols, T.~E.
+  Nichols, J.~Pellman, J.-B. Poline, A.~Rokem, G.~Schaefer, V.~Sochat,
+  W.~Triplett, J.~A. Turner, G.~Varoquaux, and R.~A. Poldrack.
+\newblock The brain imaging data structure, a format for organizing and
+  describing outputs of neuroimaging experiments.
+\newblock \emph{Scientific Data}, 3\penalty0 (1):\penalty0 160044, June 2016.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/sdata.2016.44}.
+
+\bibitem[Pernet et~al.(2019)Pernet, Appelhoff, Gorgolewski, Flandin, Phillips,
+  Delorme, and Oostenveld]{pernetEEGBIDSExtensionBrain2019}
+C.~R. Pernet, S.~Appelhoff, K.~J. Gorgolewski, G.~Flandin, C.~Phillips,
+  A.~Delorme, and R.~Oostenveld.
+\newblock {{EEG-BIDS}}, an extension to the brain imaging data structure for
+  electroencephalography.
+\newblock \emph{Scientific Data}, 6\penalty0 (1):\penalty0 103, June 2019.
+\newblock ISSN 2052-4463.
+\newblock \doi{10.1038/s41597-019-0104-8}.
+
+\bibitem[Vliet(2020)]{vlietSevenQuickTips2020}
+M.~v. Vliet.
+\newblock Seven quick tips for analysis scripts in neuroimaging.
+\newblock \emph{PLOS Computational Biology}, 16\penalty0 (3):\penalty0
+  e1007358, Mar. 2020.
+\newblock ISSN 1553-7358.
+\newblock \doi{10.1371/journal.pcbi.1007358}.
+\newblock URL
+  \url{https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007358}.
+\newblock Publisher: Public Library of Science.
+
+\end{thebibliography}

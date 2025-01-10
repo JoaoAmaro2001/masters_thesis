@@ -1,0 +1,88 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Acknowledgments}{vii}{section*.1}%
+\contentsline {section}{Resumo}{ix}{section*.2}%
+\contentsline {section}{Abstract}{xi}{section*.3}%
+\contentsline {section}{List of Tables}{xvii}{section*.5}%
+\contentsline {section}{List of Figures}{xix}{section*.7}%
+\contentsline {section}{Glossary}{xxi}{section*.9}%
+\contentsline {chapter}{\numberline {1}Background}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Electroencephalography}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Physiological Underpinnings of EEG}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Dipole Theory}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Event-related potentials}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Historical foundations}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}ERP components}{4}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}ERP considerations}{5}{subsection.1.2.3}%
+\contentsline {subsubsection}{Evoked and induced activity}{5}{section*.14}%
+\contentsline {subsubsection}{Signal averaging}{5}{section*.15}%
+\contentsline {subsubsection}{Advantages and Limitations of ERPs}{5}{section*.17}%
+\contentsline {section}{\numberline {1.3}Electrical Source Imaging}{6}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}EEG as brain imaging}{6}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Head Model Creation}{7}{subsection.1.3.2}%
+\contentsline {subsubsection}{Methods for Head Modeling}{7}{section*.19}%
+\contentsline {subsubsection}{Importance of subject-specific MRI}{7}{section*.20}%
+\contentsline {subsubsection}{Digitizing EEG Electrodes}{8}{section*.21}%
+\contentsline {subsection}{\numberline {1.3.3}Algorithms}{8}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Implementation Software}{10}{subsection.1.3.4}%
+\contentsline {chapter}{\numberline {2}Introduction}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Neurourbanism}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Increasing Urbanization}{13}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Emotions in urbanism}{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Neuroscience of Neurourbanism}{14}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Electrophysiology of Emotions}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}EEG features}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}ERP studies}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}ERP source localization}{18}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Objectives}{18}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}General Objectives}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Specific Objectives}{18}{subsection.2.3.2}%
+\contentsline {chapter}{\numberline {3}Materials and Methodology}{19}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Subjects}{19}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Psychological Assessments and Participant Characteristics}{19}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Data Acquisition Systems}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Stimuli}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Physiological Measurements}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Eye-tracker}{20}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Structural MRI}{20}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}EEG Recording}{21}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Electrode Digitization}{21}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}Setup}{21}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Experimental Protocol}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Task Implementation Software}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Task Description}{22}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Behavioral Data Analysis}{23}{section.3.5}%
+\contentsline {section}{\numberline {3.6}EEG data Analysis}{23}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}EEG preprocessing}{23}{subsection.3.6.1}%
+\contentsline {subsubsection}{Filtering and re-sampling}{23}{section*.30}%
+\contentsline {subsubsection}{Channel Rejection}{24}{section*.31}%
+\contentsline {subsubsection}{ICA decomposition}{24}{section*.32}%
+\contentsline {subsubsection}{Interpolation and re-referencing}{24}{section*.33}%
+\contentsline {subsubsection}{Spatial Smoothing}{24}{section*.34}%
+\contentsline {subsection}{\numberline {3.6.2}Event-related Potentials}{25}{subsection.3.6.2}%
+\contentsline {subsubsection}{Epoching}{25}{section*.36}%
+\contentsline {subsubsection}{Trial rejection}{25}{section*.37}%
+\contentsline {subsubsection}{Defining EPN and LPP components}{26}{section*.38}%
+\contentsline {subsection}{\numberline {3.6.3}Statistical Analysis}{26}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}Source Reconstruction}{27}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Head Model Creation}{28}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}ERP Source Localization}{29}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Results}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Behavioral Analysis}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.2}ERP analysis}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Grand average ERP}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}EPN and LPP metrics}{33}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Source estimation}{34}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Discussion}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Behavioral data}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Task considerations}{37}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ERP results}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Source analysis results}{39}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Future Work}{40}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion}{41}{chapter.6}%
+\contentsline {chapter}{Bibliography}{43}{section*.49}%
+\contentsline {chapter}{\numberline {A}Dataset and Code}{55}{appendix.A}%
+\contentsline {section}{\numberline {A.1}BIDS structure}{55}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Programming and Scripts}{55}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Annexes}{57}{appendix.B}%
+\contentsline {section}{\numberline {B.1}Auxiliary Documents}{57}{section.B.1}%
+\contentsline {subsection}{\numberline {B.1.1}Inclusion and exclusion criteria}{57}{subsection.B.1.1}%

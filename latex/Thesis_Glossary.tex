@@ -1,0 +1,117 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Glossary.tex                                        %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified : 27 Feb 2024                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% The definitions can be placed anywhere in the document body
+% and their order is sorted by <key> automatically when
+% calling makeindex in the makefile
+%
+% ----------------------------------------------------------------------
+% To create a glossary entry, use the following syntax:
+%
+% \newglossaryentry{<label>}{name={<key>}, description={<value>}}
+%
+% where the parameters are:
+% <label> is the label of the entry,
+% <key> is the acronym to be defined by the glossary entry (in lowercase, preferably)
+% <value> is the actual definition of the current term
+%
+% To produce the desired term in the document, that will be replaced by
+% the user-defined in the output, use the following syntax:
+%
+% \gls{<label>}
+%
+% ----------------------------------------------------------------------
+% To create a acronym entry, use the following syntax:
+%
+% \newacronym{⟨label⟩}{⟨abbrv⟩}{⟨full⟩}
+%
+% where the parameters are:
+% <label> is the label of the entry,
+% <abbrv> is the acronym,
+% <full> is the definition of the acronym
+%
+% To produce the desired term in the document, that will be replaced by
+% the user-defined in the output, use one of the following syntaxes:
+%
+% \acrlong{<label>}
+% \acrshort{<label>}
+% \acrfull{<label>}
+%
+% ----------------------------------------------------------------------
+% By default, only those entries defined in the main document using the
+% commands above will be displayed in the glossary (list of acronyms),
+% unless the command \glsaddall is used,
+% ----------------------------------------------------------------------
+
+% The order of the definitions below is irrelevant
+% since the glossary is automatically ordered alphabetically
+
+\newacronym{laura}{LAURA}{Local Autoregressive Average}
+\newacronym{loreta}{LORETA}{Low Resolution Electromagnetic Tomography}
+\newacronym{sloreta}{sLORETA}{Standardized Low Resolution Electromagnetic Tomography}
+\newacronym{eloreta}{eLORETA}{Exact Low Resolution Electromagnetic Tomography}
+\newacronym{mne}{MNE}{Minimum Norm Estimate}
+\newacronym{wmn}{WMN}{Weighted Minimum Norm}
+\newacronym{erds}{ERD/ERS}{Event-related desynchronization/synchronization}
+\newacronym{esi}{ESI}{Electrical Source Estimation}
+\newacronym{erp}{ERP}{Event-related Potential}
+\newacronym{lpp}{LPP}{Late Positive Potential}
+\newacronym{epn}{EPN}{Early Posterior Negativity}
+\newacronym{mmn}{MMN}{Mismatch negativity}
+\newacronym{ern}{ERN}{Error-related Negativity}
+\newacronym{eeg}{EEG}{Electroencephalography}
+\newacronym{mri}{MRI}{Magnetic Resonance Imaging}
+\newacronym{fmri}{fMRI}{Fucntional Magnetic Resonance Imaging}
+\newacronym{fnirs}{fNIRS}{Functional Near-Infrared Spectrometry}
+\newacronym{sam}{SAM}{Self-Assessment Manikin}
+\newacronym{sdi}{SDI}{Spatial Data Infrastructure}
+\newacronym{bids}{BIDS}{Brain Imaging Data Standard}
+\newacronym{hdeeg}{HD-EEG}{High-density Encephalography}
+\newacronym{art}{ART}{Attention Restoration Theory}
+\newacronym{srt}{SRT}{Stress Reduction Theory}
+\newacronym{sd}{SD}{Standard Deviation}
+\newacronym{pare}{PARE}{Polar Average Reference Effect}
+\newacronym{fir}{FIR}{Finite Impulse Response}
+\newacronym{ad}{AD}{Alzheimer’s disease}
+\newacronym{mci}{MCI}{Mild Cognitive Impairment}
+\newacronym{adhd}{ADHD}{Attention Deficit Hyperactivity Disorder}
+\newacronym{vr}{VR}{Virtual Reality}
+\newacronym{ai}{AI}{Artificial Intelligence}
+\newacronym{bci}{BCI}{Brain-computer interface}
+\newacronym{gui}{GUI}{Graphical User Interface}
+\newacronym{bem}{BEM}{Boundary Element Method}
+\newacronym{fem}{FEM}{Finite Element Method}
+\newacronym{fdm}{FDM}{Finite Difference Method}
+\newacronym{ba}{BA}{Brodmann Area}
+\newacronym{roi}{ROI}{Region of Interest}
+\newacronym{ecd}{ECD}{Equivalent Current Dipole}
+\newacronym{music}{MUSIC}{Multiple Signal Classification}
+\newacronym{rapmusic}{RAP-MUSIC}{Recursively Applied Multiple Signal Classification}
+\newacronym{dspm}{dSPM}{Dynamic Statistical Parametric Mapping}
+\newacronym{sslofo}{SSLOFO}{Standardized shrinking LORETA-FOCUSS}
+\newacronym{regea}{REGEA}{Regional Activity Estimation} 
+\newacronym{focuss}{FOCUSS}{Focal Underdetermined System Solution}
+\newacronym{snr}{SNR}{Signal-to-Noise Ratio}
+\newacronym{tfce}{TFCE}{Threshold-Free Cluster Enhancement}
+\newacronym{dicom}{DICOM}{Digital Imaging and Communications in Medicine}
+% -----------------------------------------------(manual above)
+%\newacronym{⟨label⟩}{⟨abbrv⟩}{⟨full⟩}
+%\newacronym{⟨label⟩}{⟨abbrv⟩}{⟨full⟩}
+%\newacronym{⟨label⟩}{⟨abbrv⟩}{⟨full⟩}
+
+% ----------------------------------------------------------------------
+% displays all entries (even those unused with commands \acrlong/short/full)
+\glsaddall
+
+% ----------------------------------------------------------------------
+% vertical aligment of acronyms' long names
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+\setlength\glsdescwidth{1.0\hsize}

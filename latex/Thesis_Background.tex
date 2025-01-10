@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%     File: Thesis_Background.tex                                      %
+%     Tex Master: Thesis.tex                                           %
+%                                                                      %
+%     Author: Andre C. Marta                                           %
+%     Last modified :  4 Mar 2024                                      %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Background}
+\label{chapter:background}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Electroencephalography}
+\label{section:EEG}
+
+\acrfull{eeg} is a non-invasive technique for recording the brain's electrical activity \cite{schomerNiedermeyersElectroencephalographyBasic2018}. First demonstrated by Berger in 1929, EEG captures voltage fluctuations on the scalp through an array of electrodes that detect neural activity coming from the brain \cite{bergerUeberElektrenkephalogrammMenschen1929}. Since its discovery there have been many improvements from the engineering and scientific perspectives which catapulted EEG as one of the most widely used techniques in neuroscience \cite{biasiucciElectroencephalography2019} (Figure \ref{fig:eeg_intro}).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/eeg_intro.png}
+	\caption{Timeline of the technological evolution of the EEG and its applications. Figure taken from \cite{biasiucciElectroencephalography2019}. \label{fig:eeg_intro}}
+\end{figure}
+
+EEG is a valuable tool for its ability to capture real-time neural oscillations with high temporal resolution. Clinically, the EEG can be used for the diagnosis of several brain-diseases, brain-disorders, and brain-injuries. Its most common application is the diagnosis and monitoring of epilepsy, but other examples include studying sleep, seizures, comas, brain death, \acrfull{adhd}, disorders of consciousness, and the depth of anesthesia \cite{amerEEGSignalProcessing2023}. In research, it is extensively used to study cognitive processes like attention, memory, and emotion. Many methodologies have been used and described and most can be classified into the following domains of analysis: time-domain, frequency-domain, time-frequency domain, connectivity, and source analysis \cite{michelUtilizationEEGBrain2012,Subha2010EEGSA, cohenAnalyzingNeuralTime2014}. Finally, EEG's portability and affordability make it suitable for field studies and real-world applications, while technological advancements, including integration with artificial intelligence (AI) and virtual reality (VR), have expanded its use in brain–computer interfaces (BCI) \cite{mushtaqOneHundredYears2024}.
+
+\subsection{Physiological Underpinnings of EEG}
+
+Pyramidal cells are thought to be the main sources of the electrical activity recorded at the scalp. This is due to two main reasons: The first is that these neurons are widely present in the cortex, which is closer to the recording electrodes than deeper brain structures, and the second, perhaps most important reason, is that the morphology of these neurons make them behave as electrical dipoles, which makes the synchronous firing of thousands of these neurons (arranged in columns) a visible event in the EEG (figure \ref{fig:dip_generator}). In fact, it has been estimated that about $6 cm^2$ of cortical gyri tissue (containing about 600,000 minicolumns or 60 million neurons forming a dipole layer) must be synchronously active to produce recordable scalp potentials without averaging \cite{nunezElectricFieldsBrain2006}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/dipole_generator.png}
+	\caption{Schematic depicting the formation of a dipole in pyramidal cells of the cortex, which are then picked up by EEG electrodes. Figure adapted from \cite{bearNeuroscienceExploringBrain2020}. \label{fig:dip_generator}}
+\end{figure}
+
+In summary, there are three determinants of EEG signal magnitude: neuron geometry, synaptic distribution, and source depth \cite{nunezElectricFieldsBrain2006}. The cortex is the brain structure that best fits these requirements as it is closest to the scalp electrodes and contains neural distributions whose synchronous activity creates strong directed dipoles. Thus, the EEG signal is biased towards synchronous activity originating from the cortical gray matter, a fact which EEG researchers must take into account.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Dipole Theory}
+
+The dipole model is the result of a biophysical approach to EEG, which originally appeared as an alternative to the classical neurophysiological-neurobiological explanation of EEG signals. In essence, a dipole is a separation of charges over a distance. Currently, it prevails as the established theory underlying the genesis of the EEG signal and directly explains the preponderance of the source estimation technique in the field. It is useful as a model insofar as it explains the neuron-generated potentials recorded by the EEG based on the existence of a volume conductor, i.e. the brain and surrounding tissues \cite{niedermeyerDipoleTheoryElectroencephalography1996}.
+
+One seminal example in which the dipole theory underlies the research hypothesis was in study of the cortical sources of the posterior alpha rhythm. In this study, several electrodes were inserted at different depths of a dog's cortex and a phase reversal was observed during alpha periods of alpha activity. The site of phase reversal indicates indicates the location of the underlying postsynaptic activity on the soma-dendritic membrane \cite{lopesdasilvaCorticalSourceAlpha1977}.
+
+The dipole theory serves as the foundational principle in neuroscience models and source analysis software. One such model identifies cortical pyramidal cells, particularly in layers 2/3 (supra-granular) and 5 (infra-granular), as the primary generators of extracellular electric fields. Synaptic inputs to proximal and distal regions of these neurons result in distinct current sources and sinks, respectively, producing dipoles observable at the cortical surface. Consequently, the polarity of scalp-recorded EEG reflects the underlying cytoarchitecture and synaptic dynamics driving these dipolar currents \cite{neymotinHumanNeocorticalNeurosolver2020}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Event-related potentials}
+
+Following the pioneering work on EEG, researchers soon recognized that raw EEG encapsulated numerous concurrent neural signals, limiting its direct application for isolating specific cognitive processes. In response, scientists developed methods to extract and average the subtle brain responses linked to discrete sensory, cognitive, and motor events, thus defining the concept of \acrfull{erp} \cite{luckIntroductionEventrelatedPotential2014}.
+
+\subsection{Historical foundations} 
+
+The use of averaged EEG data was also largely influenced by the technology of the time, which was limited in computing power and memory storage. Signal averaging was a technique first used to amplify the ERP signals (in a time of limited computing power), since single-trial ERPs are of very low amplitude \cite{luckIntroductionEventrelatedPotential2014}. The first computerized response averaging computer, called the computer of average transients (CAT, ca. 1962), was capable of storing the time-locked EEG signal and average it over time \cite{delormeEEGLABOpensourceToolbox2004, delormeWhatBestERP2023}. Current technology is no longer constrained by such limitations, but the ERP paradigm continues to be adopted for the study of cognitive processes and its prevalence continues to rise in the field \cite{donoghueAutomatedMetaanalysisEventrelated2022}. 
+
+\subsection{ERP components}
+
+Researchers have recognized for decades that the peaks are somewhat arbitrary, and they make a distinction between peaks, i.e. local voltage maxima, and components. An ERP component can be defined as a scalp-recorded voltage change that reflects a specific neural or psychological process. In practice, an ERP is characterized by its polarity, latency, and scalp distribution \cite{luckIntroductionEventrelatedPotential2014}. These parameters often motivated the nomenclature of ERP components; for example, "P100" meaning a positive potential peaking at approximately 100 ms \cite{donoghueAutomatedMetaanalysisEventrelated2022}.
+
+ERP components are a useful way of partitioning ERPs into meaningful discrete parts which can be correlated with sensorial and cognitive states \cite{kappenmanERPComponentsUps2011}. In fact, several ERP components have already been identified and associated with different cognitive domains and pathologies. For example, one systematic review has shown that ERPs are the second most common EEG index used in cognitive research, only behind the power spectral density analysis \cite{donoghueAutomatedMetaanalysisEventrelated2022, ismailApplicationsEEGIndices2020}
+
+\subsection{ERP considerations}
+
+\subsubsection{Evoked and induced activity}
+
+There are two broad classes of EEG responses - evoked and induced \cite{cohenAnalyzingNeuralTime2014}. Evoked potentials are both time-locked and phase-locked to event onsets and induced potentials are time-locked but not phase-locked. As such, when averaging trial data only evoked potentials remain while induced potentials cancel out \cite{luckIntroductionEventrelatedPotential2014, makeigAuditoryEventrelatedDynamics1993a}. Therefore, ERPs reflect phase-locked and time-locked activity.
+
+
+\subsubsection{Signal averaging}
+
+The immediate and obvious advantage of signal averaging is the increase of the \acrfull{snr}. The increase of the SNR is proportional to the number of trials being averaged \cite{luckIntroductionEventrelatedPotential2014}. However, averaging can also pose difficulties to finding ERP components. This is particularly true for cases of high inter-trial variability, which is both subject-specific and trial dependent. In these cases, the phenomenon of latency jitter can mask true ERP components seen at the trial level (see figure \ref{fig:erp_jitter}) \cite{luckOxfordHandbookEventrelated2013,murrayCompensationTrialtoTrialLatency2019}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/erp_jitter.png}
+	\caption{Schematic depicting the effect of latency and amplitude jitter. Figure taken from \cite{murrayCompensationTrialtoTrialLatency2019}. \label{fig:erp_jitter}}
+\end{figure}
+
+\subsubsection{Advantages and Limitations of ERPs}
+
+In summary, ERPs are a well-established method for precise time-domain analysis of EEG data, known for their robustness in replication and high task specificity. The wide range of ERP components discovered highlights their success in EEG analysis. Additionally, their simplicity has contributed to their widespread adoption and study.
+
+However, as discussed in the previous subsections, ERPs have two major limitations. First, null results can be challenging to interpret, as ERPs provide only a narrow window into the EEG signal. Second, even when results are obtained, the limited scope of ERPs makes it difficult to connect findings to underlying physiological mechanisms \cite{cohenAnalyzingNeuralTime2014}. Consequently, EEG studies benefit from coupling ERP paradigms with complementary approaches, such as frequency and time-frequency analyses, to gain a more comprehensive understanding of the EEG signal.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Electrical Source Imaging}
+\label{section:ESI}
+
+It has now been more than 100 years since Hans Berger, with the aid of neurosurgeon Nikolai Guleke, performed the first-ever recording of the electroencephalogram from a human\cite{bergerUeberElektrenkephalogrammMenschen1929}. This impressive milestone has motivated a recent survey to EEG researchers on the \textit{status quo} of the field. Notably, the community has voted that the advancements which would contribute the most to their work include improvements in tools for the quantitative analysis of EEG, standardization, and source imaging accuracy \cite{mushtaqOneHundredYears2024}; the latter is the topic to be explored in this section.
+
+\subsection{EEG as brain imaging}
+
+The choice of EEG for millisecond resolution of brain processes is due to its high temporal resolution. However, EEG's spatial sensitivity appears to be at opposite ends from its temporal counterpart. This is due to the way electrical signals are attenuated when traveling through all the brain tissues until they reach the scalp electrodes. Adding spatial resolution for EEG signals - such that anatomical data could be extracted from these ERP components - would make EEG a veritable neuroimaging technique with both spatial and temporal resolution \cite{luckIntroductionEventrelatedPotential2014}. 
+
+Simply adding more electrodes on the scalp can provide a more detailed topographical map of voltage values, but a ceiling of 500 channels as been estimated as the number beyond which adding more channels does not give more useful information \cite{songEEGSourceLocalization2015}. This limitation has motivated the  development of various techniques - grouped under the umbrella term of electrical source imaging (ESI) - whose purpose is to estimate the neuronal activity of the putative sources creating the EEG signal \cite{bailletElectromagneticBrainMapping2001}.  These techniques follow the same general workflow: creating a source space of activities which best explain the observed EEG data based on a head model wrapped to fit the electrode locations. The difference between these models are the constraints forced upon the leadfield matrix which bridges the EEG data to the source activity \cite{zorzosAdvancesElectricalSource2021}. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{Figures/esi_workflow.png}
+\caption{General workflow to perform electrical source imaging on EEG data. Figure taken from \cite{zorzosAdvancesElectricalSource2021}. \label{fig:esi_basic}}
+\end{figure}
+
+\subsection{Head Model Creation}
+
+\subsubsection{Methods for Head Modeling}
+
+Head modeling plays a critical role in accurate source localization in EEG studies. Various computational techniques, such as Boundary Element Models (BEMs), Finite Difference Models (FDMs), and Finite Element Models (FEMs), are used to create head models that approximate the conductive properties of the human head. These models differ in their approach to discretizing the head and the underlying assumptions about the geometry and conductivity of tissues, influencing their accuracy and computational requirements \cite{hallezReviewSolvingForward2007a}.
+
+BEMs simplify the head model by assuming homogeneous conductivity within each tissue layer and focusing computations on the boundaries between tissues. While computationally efficient, BEMs are sensitive to inaccuracies in boundary delineations, particularly in complex geometries like those of the skull. In contrast, FEMs and FDMs allow for inhomogeneous and anisotropic conductivities, making them better suited for capturing the detailed electrical properties of various tissues, such as bone, gray matter, and white matter. FEMs, in particular, divide the head into finite elements, enabling highly detailed and anatomically accurate models but requiring significant computational resources \cite{akalinacarEffectsForwardModel2013}.
+
+\subsubsection{Importance of subject-specific MRI}
+
+Accurate head model creation methods, such as FDM or FEM, when combined with structural MRI data, enable the development of realistic and anatomically precise head models. While it is possible to use a template MRI to construct a head model, doing so significantly reduces the accuracy of source localization \cite{brodbeckElectroencephalographicSourceImaging2011}. Recent research employing both simulated and real data demonstrated this limitation by quantifying errors in ERP source localization. The study found that template-based head models increased both false positives and false negatives, highlighting their reduced reliability \cite{depuydtInvestigatingEffectTemplate2024}.
+
+For the most accurate reconstruction of neural activity, the ideal approach involves creating a subject-specific head model. This process integrates the individual’s MRI to capture unique anatomical features and incorporates precise electrical properties of various tissue types, such as the skull, brain, and scalp. These individualized models significantly enhance the spatial resolution and fidelity of source localization, outperforming template-based approaches \cite{akalinacarEffectsForwardModel2013}.
+
+\subsubsection{Digitizing EEG Electrodes}
+
+In addition to creating accurate head models, digitizing EEG electrodes is a crucial step for reliable source estimation. The accurate localization of electrode positions ensures a better alignment between the recorded EEG signals and the head model. A study investigating the effect of digitization methods on EEG source localization found that accurate Broadmann area identification could be achieved with various digitization techniques. However, relying on a standard template of electrode locations, rather than digitizing each participant's specific electrode positions, decreased accuracy by up to 50\% \cite{shiraziMoreReliableEEG2019}.
+
+\subsection{Algorithms}
+
+Since any given electric potential recorded at the scalp can be explained by the activity of infinitely different configurations of intracranial sources, the solution is underdetermined, and constraints must be added to derive the a singular solution \cite{michelEEGSourceImaging2019}. One such constraint is the minimum norm solution, which selects the solution with the smallest overall dipole magnitudes, as intense currents are biologically implausible. Additional constraint methods based on the minimum norm estimate (MNE) solution \cite{hamalainenInterpretingMagneticFields1994} include: local autoregressive average of coefficients (LAURA) \cite{gravedeperaltamenendezElectricalNeuroimagingBased2004a}, low-resolution electromagnetic tomography (LORETA) \cite{pascual-marquiLowResolutionElectromagnetic1994}, and standardized low-resolution electromagnetic tomography (sLORETA) \cite{pascual-marquiStandardizedLowresolutionBrain2002}. The LAURA method leverages biophysical laws of vector field intensities to limit the source solution depending on the position of each source; the LORETA method constrains the solution to gradual changes in source intensity across the cortex; and the sLORETA method builds on this by giving equal sensitivity to superficial and deeper sources \cite{bailletElectromagneticBrainMapping2001, luckIntroductionEventrelatedPotential2014, zorzosAdvancesElectricalSource2021}. While many other algorithms exist (Figure \ref{fig:esi_algo}), those mentioned above have been becoming the most prevalent in the literature.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{Figures/esi_algos.png}
+	\caption{Different types of source imaging algorithms. Figure taken from \cite{nidalEEGERPAnalysis2014}. \label{fig:esi_algo}}
+\end{figure}
+
+Source models can be classified along two key dimensions: discrete vs. distributed and global vs. local. Discrete models focus on a few specific sources at defined locations, while distributed models estimate current activity across numerous small brain voxels. Global models aim to explain the entire ERP scalp distribution through interdependent sources, whereas local models assess the contribution of individual regions of interest (ROI) independently, often chosen based on anatomical or other criteria rather than their contribution to scalp measurements \cite{osmanERPSourceLocalization2007}.
+
+\begin{table}[H]
+	\centering
+	\caption{Taxonomy of source localization methods}
+	\label{tab:erp_taxonomy}
+	\renewcommand{\arraystretch}{1.5} % Adjust row height
+	\begin{tabular}{c | c | c}
+		& \textbf{Global} & \textbf{Local} \\ \hline
+		\textbf{Discrete} & 
+		\begin{tabular}[c]{@{}c@{}}Equivalent Current\\ Dipoles (ECD)\end{tabular} & 
+		\begin{tabular}[c]{@{}c@{}}Beamformers or\\ Regional Activity\\ Estimation (REGEA)\end{tabular} \\ \hline
+		\textbf{Distributed} & 
+		\begin{tabular}[c]{@{}c@{}}Low Resolution\\ Tomography (LORETA)\end{tabular} & 
+		\begin{tabular}[c]{@{}c@{}}Beamformers or\\ Regional Activity\\ Estimation (REGEA)\end{tabular}
+	\end{tabular}
+\end{table}
+
+Ultimately, no source estimation algorithm provides a perfect solution to the inverse problem. To effectively address the ill-posed EEG inverse problem, several considerations are essential. First, the algorithm must overcome the limitation of failing to localize deep sources, a common issue with minimum norm solutions. Second, it should achieve higher spatial resolution, addressing challenges such as blurring and low-resolution recovery seen in methods like LORETA, sLORETA, and eLORETA, which struggle to localize multiple sources due to regularization-induced blurring. Third, the method should minimize computational complexity, avoiding repeated iterations that can slow down the system, introduce noise, and increase complexity, as seen in hybrid algorithms like LORETA-FOCUSS. Finally, the algorithm must be validated with real-time data to ensure reliability, as results based solely on simulations are insufficient \cite{nidalEEGERPAnalysis2014}.
+
+
+\subsection{Implementation Software}
+
+Many software tools commonly used to analyze EEG data already provide source estimation techniques \cite{dasSurveyEEGData2023, michelEEGSourceImaging2019} (see Table \ref{tab:software_packages}). Source reconstruction tools can be broadly categorized along two axes: the level of control they offer to the user, i.e., the degree of operator dependence, and their transparency as a software.
+
+For example, NetStation is a proprietary software platform, which means it is less available as a tool to the reseacrh community and that users do not have access to the underlying reconstruction algorithm. However, it provides a user-friendly \acrfull{gui}, facilitating the application of Electrical Source Imaging (ESI) for researchers who may not be familiar with the method's complexities. This makes it accessible to non-expert users but limits customizability and algorithm transparency.
+
+On the other hand, MNE-Python \cite{gramfortMEGEEGData2013,gramfortMNESoftwareProcessing2014} offers open-source tools for ESI, giving users full access to the reconstruction algorithms and workflows. This allows for a higher degree of customizability and transparency, making it particularly suitable for researchers with programming skills and a deeper understanding of ESI methods; however, the entry-cost is much higher.
+
+These observations are generally true for any software in neuroscience but, in the specific case of ESI, these must be particularly present as ESI requires detailed understanding of the method itself, and only recently has it become more widely available with the improvement of computing power and development of software tools.
+
+\begin{table}[H]
+	\centering
+	\caption{Academic and commercial software packages for eeg source reconstruction. Table taken from \cite{michelEEGSourceImaging2019}.}
+	\label{tab:software_packages}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{lp{6cm}p{7cm}}
+			\toprule
+			\textbf{Name}       & \textbf{Website} & \textbf{Inverse Models}                                         \\ \midrule
+			\multicolumn{3}{l}{\textbf{Academic Software Packages}}                                                 \\
+			Brainstorm          & \url{https://neuroimage.usc.edu/brainstorm} & Dipole modeling, Beamformer, sLORETA, dSPM  \\
+			Cartool             & \url{https://sites.google.com/site/cartoolcommunity/} & Minimum Norm, LORETA, LAURA, Epifocus  \\
+			EEGLab              & \url{https://sccn.ucsd.edu/eeglab/index.php} & Dipole modeling                               \\
+			Fieldtrip           & \url{http://www.fieldtriptoolbox.org/} & Dipole modeling, Beamformer, Minimum Norm        \\
+			LORETA              & \url{http://www.uzh.ch/keyinst/loreta.htm} & LORETA, sLORETA, eLORETA                      \\
+			MNE                 & \url{https://martinos.org/mne/stable/index.html} & MNE, dSPM, sLORETA, eLORETA                  \\
+			NUTMEG              & \url{https://www.nitrc.org/projects/nutmeg/} & Beamformer                                    \\
+			SPM                 & \url{https://www.fil.ion.ucl.ac.uk/spm/} & dSPM                                          \\ \midrule
+			\multicolumn{3}{l}{\textbf{Commercial Software Packages}}                                               \\
+			BESA                & \url{http://www.besa.de/products/besa-research/besa-research-overview/} & Dipole modeling, RAP-MUSIC, LORETA, sLORETA, LAURA, SSLOFO \\
+			BrainVision Analyzer & \url{https://www.brainproducts.com/} & LORETA                                        \\
+			BrainVoyager        & \url{https://www.brainvoyager.com/} & Beamformer, Minimum Norm, LORETA, LAURA        \\
+			GeoSource           & \url{https://www.usa.philips.com/healthcare/solutions/neuro/neuro-research-applications} & Minimum Norm, LORETA, sLORETA, LAURA \\
+			CURRY               & \url{https://compumedicsneuroscan.com/curry-source-reconstruction/} & Dipole modeling, MUSIC, Beamformer, Minimum Norm, sLORETA, eLORETA \\ \bottomrule
+		\end{tabular}%
+		}
+\end{table}
+
+
+
